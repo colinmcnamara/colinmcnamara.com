@@ -1,2 +1,2 @@
 # colinmcnamara.com
-repo for the blog colinmcnamara.com
+repository for the blog colinmcnamara.com
