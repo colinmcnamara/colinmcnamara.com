@@ -1,0 +1,1609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 08 Sep 2015 17:23:32 -0500</pubDate>
+    <lastBuildDate>Tue, 08 Sep 2015 17:23:32 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Look up from your phone  &amp;#8211; a lesson to us in &amp;quot;Social Media&amp;quot;</title>
+        <description>&lt;p&gt;Last week I did something that is unheard of in today’s world. I went a whole week without taking my phone out of my bag. I went a whole week without access to Twitter, Facebook, the Internet, my email.&lt;/p&gt;
+
+&lt;p&gt;And you know something – &lt;strong&gt;IT WAS AMAZING &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I learned to dance, I learned to hula hoop. I can even cartwheel now. I wrote poetry, I performed at a Poetry Slam!. I hiked, I meditated, I read, I wrote. Every meal I had was savored, in every conversation I made new friends. I truly listened, and spoke from my soul. I wasn’t distracted by my phone, I was engaged by this crazy thing we call real life.&lt;/p&gt;
+
+&lt;p&gt;This morning, I was going through some video’s on TinyBuddha.com and came across this Spoken Word titled “Look Up”. I would really recommend taking four minutes of your day to watch it. It is awesome, almost like it is written to those of us who blog, or are heavy on social media.  It starts out with a powerful statement –&lt;span style=&quot;font-size: 1.17em;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;span-stylefont-size-117emi-have-422-friends-yet-i-am-lonelyspan&quot;&gt;&lt;span style=&quot;font-size: 1.17em;&quot;&gt;I have 422 friends, yet I am lonely…..&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Myself, right now I am going to head to the local coffee shop and sit at the counter (this is turning into a morning tradition for me). I am going to write a little, and chat. My phone is in my pocket, not in my mind.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.17em; font-weight: normal;&quot;&gt;I am going out tonight to celebrate a friends birthday. I am &lt;/span&gt;&lt;span style=&quot;font-size: 16px; font-weight: normal;&quot;&gt;going&lt;/span&gt;&lt;span style=&quot;font-size: 1.17em; font-weight: normal;&quot;&gt; to dance, and have a great time. I am going to live in that moment, be present in today, and savor life for the beautiful thing that it is.  &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: large;&quot;&gt;So be brave, step away from the phone. Look up, connect with the people around you, not just the people on twitter &lt;/span&gt;&lt;span style=&quot;font-size: 1.17em;&quot;&gt;e present, be here, connect. Be comfortable with yourself. it is a powerful thing. &lt;strong&gt;Put away that phone for a bit and&lt;/strong&gt;&lt;/span&gt;&lt;em style=&quot;font-size: 1.17em;&quot;&gt;&lt;strong&gt; live&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Jun 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/look-up-from-your-phone-a-lesson-to-us-in-social-media/</link>
+        <guid isPermaLink="true">http://yourdomain.com/look-up-from-your-phone-a-lesson-to-us-in-social-media/</guid>
+        
+        <category>facebook</category>
+        
+        <category>internet</category>
+        
+        <category>social media</category>
+        
+        
+        <category>life</category>
+        
+      </item>
+    
+      <item>
+        <title>Why I think Kyle Mestery is right for Neutron &amp;#8211; OpenStack PTL Elections</title>
+        <description>&lt;div id=&quot;content&quot; style=&quot;font-family: Georgia, serif;&quot;&gt;
+  &lt;div class=&quot;sect2&quot;&gt;
+    &lt;div class=&quot;paragraph&quot; style=&quot;clear: left;&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        I think the biggest challenge with OpenStack right now is finding a healthy balance between all user archetypes that contribute code.
+      &lt;/p&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        These include (but are not exclusive to)
+      &lt;/p&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;olist arabic&quot;&gt;
+      &lt;ol class=&quot;arabic&quot; style=&quot;margin-top: 0px; list-style-position: outside;&quot;&gt;
+        &lt;li&gt;
+          &lt;p style=&quot;margin-top: 0px; margin-bottom: 0.5em;&quot;&gt;
+            Manufacturer
+          &lt;/p&gt;
+        &lt;/li&gt;
+        
+        &lt;li&gt;
+          &lt;p style=&quot;margin-top: 0px; margin-bottom: 0.5em;&quot;&gt;
+            Integrator
+          &lt;/p&gt;
+        &lt;/li&gt;
+        
+        &lt;li&gt;
+          &lt;p style=&quot;margin-top: 0px; margin-bottom: 0.5em;&quot;&gt;
+            Operator
+          &lt;/p&gt;
+        &lt;/li&gt;
+        
+        &lt;li&gt;
+          &lt;p style=&quot;margin-top: 0px; margin-bottom: 0.5em;&quot;&gt;
+            Educational Contributor
+          &lt;/p&gt;
+        &lt;/li&gt;
+        
+        &lt;li&gt;
+          &lt;p style=&quot;margin-top: 0px; margin-bottom: 0.5em;&quot;&gt;
+            Individual Contributor
+          &lt;/p&gt;
+        &lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        Right now, there is a risk of the sometimes conflicting interests between each of those Archetypes creating situations that stall forward progress of this great project. We need the Neutron PTL to hit this issue straight in the face before it gets toxic.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;sect2&quot;&gt;
+    &lt;h3 id=&quot;_why_kyle_has_my_vote&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; float: left;&quot;&gt;
+      Why Kyle is the right person for Neutron PTL
+    &lt;/h3&gt;
+    
+    &lt;div class=&quot;paragraph&quot; style=&quot;clear: left;&quot;&gt;
+      &lt;img style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; title=&quot;NewImage.png&quot; alt=&quot;NewImage&quot; src=&quot;http://www.colinmcnamara.com/wp-content/uploads/2014/04/NewImage.png&quot; width=&quot;500&quot; height=&quot;374&quot; border=&quot;0&quot; /&gt; 
+      
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        First, let me say that Mark is an amazing PTL. His leadership has been great, and I’m sure will be great in the future. As an employee of an Operator (Yahoo) he is a close to neutral ground as we can get.
+      &lt;/p&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        That does mean however that he may not always be fully aware of all the ways that manufacturer politics and angling can manifest themselves in a project.
+      &lt;/p&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        This is where Kyle comes in. Kyle works for Cisco (specifically an OpenSource spin in called Noiro).. but still Cisco. I have known Kyle since 2012, and in that time I have seen Kyle at ever turn do what is best for the community, even when that may not have been “completely the best thing” for his employer.
+      &lt;/p&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        Day in and day out, I see Kyle act like I feel (and hopefully how I do). Exemplifying the “Badges Away” philosophy, and using OpenSource to build a bridge of collaboration between parties that at many times compete with each other. This leadership style is demonstrated in OpenStack, Open vSwitch, and OpenDaylight.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;sect2&quot;&gt;
+    &lt;h3 id=&quot;_kyle_will_be_under_scrutiny&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; float: left;&quot;&gt;
+      Kyle will be under scrutiny
+    &lt;/h3&gt;
+    
+    &lt;div class=&quot;paragraph&quot; style=&quot;clear: left;&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        The fact is, that with a manufacturer employee taking a leadership role in a project there is always a risk that a manufactures agenda will be pushed.
+      &lt;/p&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        That however is a great thing, Kyle will be under the highest levels of scrutiny. Him taking this role will require a new level of transparency around manufacture dev reviews and approvals, and will result in increased health as the project as a whole.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;sect2&quot;&gt;
+    &lt;h3 id=&quot;_kyle_s_biggest_task_as_ptl&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; float: left;&quot;&gt;
+      Kyle’s biggest task as PTL
+    &lt;/h3&gt;
+    
+    &lt;div class=&quot;paragraph&quot; style=&quot;clear: left;&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        OpenStack is maturing from a project full of beards and tattoos, to a place where suits are as common as birkenstocks. What is happening is that the same market manipulation tactics that are rampant in IETF, T11 an IEEE are making their way into OpenStack (They were a heavy undercurrent in the Hong Kong summit).
+      &lt;/p&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        Kyle’s biggest task that I see is setting up transparent policies that discourage standards body manipulation techniques, and ensure that the contributors outside of the manufactures have an equal chance to both share the burden of contribution, but also enjoy it’s benefits.
+      &lt;/p&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        At the end of the day, in the few years that I have known Kyie, he has stood out as an individual who loves this community. Who is connected to us as a whole, and who also strives to find “balance in the force”
+      &lt;/p&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        &lt;strong style=&quot;color: #083194;&quot;&gt;This is why I am eager to see Kyle elected as the Neutron PTL&lt;/strong&gt;. If you feel the same way as I do, I encourage you to make your opinion known too.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;footer&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; font-size: small; border-top-width: 2px; border-top-style: solid; border-top-color: silver; padding-top: 0.5em; margin-top: 4em;&quot;&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 07 Apr 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/why-i-think-kyle-mestery-is-right-for-neutron-openstack-ptl-elections/</link>
+        <guid isPermaLink="true">http://yourdomain.com/why-i-think-kyle-mestery-is-right-for-neutron-openstack-ptl-elections/</guid>
+        
+        <category>Neutron</category>
+        
+        <category>opendaylight</category>
+        
+        <category>openstack</category>
+        
+        <category>ptl</category>
+        
+        
+        <category>openstack</category>
+        
+      </item>
+    
+      <item>
+        <title>Is Shadow IT (DevOps) Disruptive or Transformational?</title>
+        <description>&lt;div id=&quot;content&quot; style=&quot;font-family: Georgia, serif;&quot;&gt;
+  &lt;div id=&quot;preamble&quot; style=&quot;margin-top: 1.5em; margin-bottom: 1.5em;&quot;&gt;
+    &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          Today Mark Thiele (EVP at Switch) posted an article drawing &lt;a style=&quot;color: fuchsia;&quot; href=&quot;:http://www.switchscribe.com/is-shadow-it-george-washington-or-is-it-donald-trump/&quot;&gt;comparisons between Shadow / Classic IT, and George Washington / Donald Trump.&lt;/a&gt;
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          While I actually disagree with characterization of Washington as Classic IT (I think the myth of Washington is much different then the historical documents of a man drawn into a struggle by duty) I’ll stick with Mark’s use of George Washington as classic IT, and Donald Trump as Shadow IT.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          In his post he describes some interesting alignments of Trump to fulfill the business need through “Any means possible” and GW (the founder of our country, not the “Other” one) as the keeper of the status quo.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          I feel that Mark may be implicitly communicating one assumption, that Shadow IT teams are Rogue, and less aligned to the goals of the business as a whole.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          Let me share my take.
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;sect1&quot;&gt;
+    &lt;h2 id=&quot;_pressure_from_c_level_executives_to_dev_teams&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+      Pressure from C Level (Executives) to Dev teams
+    &lt;/h2&gt;
+    
+    &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          What most people in “Classic IT” organizations don’t see is the extreme pressure to release quality code that is put on a modern software development organization.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          As far back as 2009 executive reading such as Harvard Business Review have been discussing Agile. In 2012 this started to be commonly communicated as the DeFacto standard for high speed, high quality product development through senior executive teams.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          The result of this has been a changing expectation of performance from a development team. In the past you may have had one to two years to develop a product. Now the expectation is that you have 90 days for the first release (at max) and release every month after.
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;sect1&quot;&gt;
+    &lt;h2 id=&quot;_dev_team_alignment_to_biz&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+      Dev Team Alignment to biz
+    &lt;/h2&gt;
+    
+    &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          This expectation has been core (in my opinion to the creation of “Shadow IT”. In a company, software development efforts are normally funded out of requests by the line of business (normally approved by the Exec team). The work done is heavily skewed to towards the introduction of new features that improve the competitiveness of the company and / or it’s employees.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          The key concept here, is the VP of software development is normally closer aligned to the goals of the business then any other technology organization in a company. That organization is tasked with, and accountable for delivering these products in a very short time, with low defects. All while not drastically growing headcount.
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;sect1&quot;&gt;
+    &lt;h2 id=&quot;_it_alignment_to_dev_and_line_of_biz&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+      IT Alignment to Dev and Line of Biz
+    &lt;/h2&gt;
+    
+    &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          IT organizations more and more are reporting up through the CFO. (CEO &amp;gt;&amp;gt; COO &amp;gt;&amp;gt; CFO &amp;gt;&amp;gt; CIO &amp;gt;&amp;gt; VP-IT). The exec focus and leadership mandates are generally going to be containing costs of delivered services, as well as following established management guidelines.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          I hope you see the rub in this organizational structure. Classic IT Ops is more commonly managed by.. well accountants. The pressure of this executive direction is pretty consistent, and will drive management behavior in organizations.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          The sad fact, is this reporting structure drives a disconnect between IT and the line of business when business is changing. (While optimizing for efficiency when the business is in a steady state) I believe this is core to the current disconnect between Classic and Shadow IT.
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;sect1&quot;&gt;
+    &lt;h2 id=&quot;_classic_it_what_most_miss&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+      Classic IT &amp;#8211; What most miss
+    &lt;/h2&gt;
+    
+    &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          Let’s expand on this disconnect. A well run IT organization has five area’s that they focus on.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;olist arabic&quot;&gt;
+        &lt;ol class=&quot;arabic&quot; style=&quot;margin-top: 0px; list-style-position: outside;&quot;&gt;
+          &lt;li&gt;
+            &lt;p style=&quot;margin-top: 0px; margin-bottom: 0.5em;&quot;&gt;
+              Service Strategy
+            &lt;/p&gt;
+          &lt;/li&gt;
+          
+          &lt;li&gt;
+            &lt;p style=&quot;margin-top: 0px; margin-bottom: 0.5em;&quot;&gt;
+              Service Design
+            &lt;/p&gt;
+          &lt;/li&gt;
+          
+          &lt;li&gt;
+            &lt;p style=&quot;margin-top: 0px; margin-bottom: 0.5em;&quot;&gt;
+              Service Transition
+            &lt;/p&gt;
+          &lt;/li&gt;
+          
+          &lt;li&gt;
+            &lt;p style=&quot;margin-top: 0px; margin-bottom: 0.5em;&quot;&gt;
+              Service Operation
+            &lt;/p&gt;
+          &lt;/li&gt;
+          
+          &lt;li&gt;
+            &lt;p style=&quot;margin-top: 0px; margin-bottom: 0.5em;&quot;&gt;
+              Continual Service Improvement
+            &lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          Inside of each of these area’s are a number of functions that are critical to a healthy thriving IT / Business relationship. However when optimized for minimized Opex/Capex (primarily Opex btw) is that IT organizations tend for focus on minimal area’s in elements 2,3 and 4. They mostly ignore Service Strategy, significantly ignore Service design, and rarely take a serious stab at Continual Service Improvement.
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;sect1&quot;&gt;
+    &lt;h2 id=&quot;_the_manufacturers_role_in_this_failure_is_it_enterprise_ready&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+      The Manufacturers role in this failure &amp;#8211; “Is It Enterprise Ready”
+    &lt;/h2&gt;
+    
+    &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          The sad fact is, that in the most common implementation of this failing IT strategy &amp;#8211; Service Strategy, Service Design and Continual Service Improvement are effectively outsourced to the Manufacturers selling them stuff.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          IT organizations have been trained, incented, manipulated, whatever to rely so heavy on outside forces to tell them what to do and or buy, when to do it, how to create services to expose to the business.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          This has created a situation where classic IT dependancy on outside consulting and influence for service strategy, design and improvement has created a vacuum. Few of these classic sources have real solutions that service modern software development. Furthermore, many of them are threatened by the “Next Generation” of IT services, and actively slow down adoption or creation of these services.
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;sect1&quot;&gt;
+    &lt;h2 id=&quot;_devops_is_just_good_ops&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+      DevOps is just good ops
+    &lt;/h2&gt;
+    
+    &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          Shadow IT is not evil, though many times it exists outside of the IT governance initiatives. It generally occurs when an IT organizations fails to attain a level of maturity in identifying new offerings that the business needs, and integrating them into the IT service catalogue.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          Specific to DevOps (Close collaboration between Development, and IT Operations, commonly using modern software tools and methods to manage infrastructure and services), this is just GOOD IT OPS.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          What makes good IT Operations? 1. Understanding how your org can support the goals of the business 2. Supporting these goals in a high velocity manner (quickly) 3. Providing these services in a high quality manner 4. Maintaining proper Governance of these efforts, so that you don’t break things (laws, kill people, etc) while doing the above.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          I could substitute IT Operations with DevOps or Shadow IT in the above statement. Each would still be a true statement.
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;sect1&quot;&gt;
+    &lt;h2 id=&quot;_shadow_it_devops_and_itil_itism_can_live_together&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+      Shadow IT/DevOps and ITIL/ITISM can live together
+    &lt;/h2&gt;
+    
+    &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          Here is a dirty little secret, When you get past the political and emotional barriers to change, you will come upon a simple truth.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          DevOps(Shadow IT) and IT Ops (ITIL/ITSM) are not mutually exclusive. They can both operate together.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          More specifically, each element of the ITIL change and release management process can be accomplished using DevOps tools and methodologies. Heck, most of the time as a classic IT shop (ITIL) implements the same tools that methods that are in shadow IT, they will notice that their ability to provide high quality services, in a quick fashion while maintaining governance actually improves.
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;sect1&quot;&gt;
+    &lt;h2 id=&quot;_stop_the_insanity_and_start_sharing&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+      Stop the insanity, and start sharing
+    &lt;/h2&gt;
+    
+    &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          Let’s stop the insanity, and start getting along. At the end of the day, if you have shadow IT in your organization, it is probably because the business requires a service that “Classic IT” is not providing.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          On the flip side, DevOps / Shadow IT teams that create islands upon themselves are not serving the complete goals of the business either.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          What can you do to change this? I personally think that change like this needs to have exec sponsorship. Which can be a huge challenge at times, especially if you are in the “Classic IT side”. it is possible though.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          Here is my short list 1. Take ownership of your IT service creation and Continuous Improvement processes. 2. Score your own performance, have your line of business score it too. They are your customer, listen to them. 3. Use lean tools like Value stream mapping to quantize the area’s that IT is impacting the business. 4. Stack rank area’s of improvement, you will probably see Dev services be at the top if you have Shadow IT and cloud consumption. 5. Embrace these Shadow IT/DevOps teams. Leverage them as skill centers. Use them to create dotted lines into your classic IT org. This allows you to learn, and grow together. 5. Share what you learn, this change is huge for most Organizations. You can help others by sharing your own story.
+        &lt;/p&gt;
+        
+        &lt;div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 27 Mar 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/is-shadow-it-devops-disruptive-or-transformational/</link>
+        <guid isPermaLink="true">http://yourdomain.com/is-shadow-it-devops-disruptive-or-transformational/</guid>
+        
+        <category>DevOps</category>
+        
+        <category>ITIL</category>
+        
+        <category>Mark Thiele</category>
+        
+        <category>switch</category>
+        
+        
+        <category>devops</category>
+        
+        <category>itil</category>
+        
+      </item>
+    
+      <item>
+        <title>Thanks to Susie Wee re: DevNet</title>
+        <description>&lt;p&gt;Public discussion around features and deficiencies is an important piece of this modern world of OpenSource and social media. It is easy to start a public discussion around deficiencies. It is also important to have a public discussion around success.&lt;/p&gt;
+
+&lt;h3 id=&quot;i-want-to-use-this-opportunity-to-acknowledge-susie-wee-and-her-teams-at-cisco&quot;&gt;I want to use this opportunity to acknowledge Susie Wee and her teams at Cisco.&lt;/h3&gt;
+
+&lt;p&gt;Susie and her teams responded to public feedback and improving the developer experience with developer.cisco.com. –  &lt;a href=&quot;http://www.colinmcnamara.com/open-letter-to-cisco-about-devnet/&quot;&gt;http://www.colinmcnamara.com/open-letter-to-cisco-about-devnet/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; title=&quot;DevNet.png&quot; alt=&quot;DevNet&quot; src=&quot;http://www.colinmcnamara.com/wp-content/uploads/2014/03/DevNet1.png&quot; width=&quot;500&quot; height=&quot;377&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The experience before.. was pretty bad –&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;span style=&quot;color: #333333; font-family: Georgia, &#39;Times New Roman&#39;, Times, serif; font-size: 14px; line-height: 23.100000381469727px;&quot;&gt;I’m going to tell you something, that’s probably really hard to hear. It is near impossible, to use DevNet to find information that we need to be able to achieve our goal. I think that’s your goal, helping guys like us integrate our software with gear like yours.&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;susie-and-team-significantly-improved-the-user-experience-on-developerciscocom1&quot;&gt;Susie and team significantly improved the user experience on &lt;a href=&quot;http://developer.cisco.com&quot; title=&quot;developer.cisco.com&quot;&gt;developer.cisco.com&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Now all the product specific links have been removed. I got to API docs on my first try. I have to say, I am happy with this, and am looking forward to seeing further improvements and integrations in the future.&lt;/p&gt;
+
+&lt;p&gt;As I said at the beginning, it is important to discuss both issues and success. Thank you very much Susie for taking feedback and improving me and my teams experience. I appreciate it.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 12 Mar 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/thanks-to-susie-wee-re-devnet/</link>
+        <guid isPermaLink="true">http://yourdomain.com/thanks-to-susie-wee-re-devnet/</guid>
+        
+        <category>CISCO</category>
+        
+        <category>devnet</category>
+        
+        <category>feedback</category>
+        
+        
+        <category>cisco</category>
+        
+        <category>devops</category>
+        
+      </item>
+    
+      <item>
+        <title>OpenStack Training &amp;#8211; Dev Track &amp;#8211; Lab Learning &amp;#8211; 3day Labs (day 2,3,4)</title>
+        <description>&lt;h3 id=&quot;span-stylebackground-color-transparent-font-family-arial-font-size-15px-white-space-pre-wrap-line-height-115overview-8211-developer-training-for-openstackspan&quot;&gt;&lt;span style=&quot;background-color: transparent; font-family: Arial; font-size: 15px; white-space: pre-wrap; line-height: 1.15;&quot;&gt;Overview – Developer Training for OpenStack&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-family: Arial; font-size: 15px; white-space: pre-wrap; line-height: 1.15;&quot;&gt;All us bearded (and virtually bearded) OpenStack hippies are at it again, trying to change the world through training and enablement, and a little bit of code. In this current experiment we are biting of a big chunk and creating something very similar to the Amazon Architect Course. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-size: 15px; line-height: 17px; white-space: pre-wrap;&quot;&gt;The goal for this course (Building on the work done in OpenStack Training for the Associate and Operators Course – &lt;/span&gt;&lt;/span&gt;&lt;a style=&quot;font-family: Arial; font-size: 15px; line-height: 17px; white-space: pre-wrap;&quot; href=&quot;http://docs.openstack.org/training-guides/content/&quot;&gt;http://docs.openstack.org/training-guides/content/&lt;/a&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-size: 15px; line-height: 17px; white-space: pre-wrap;&quot;&gt; ) is to have a developer armed with understanding and experience building applications on the core components of OpenStack.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+  &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+    &lt;span style=&quot;font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;strong&gt;User Archetype&lt;/strong&gt; &amp;#8211; Web Application Developer, current or future developer of Apps to be run on Amazon Web Services (AWS).&lt;/span&gt;
+  &lt;/p&gt;
+  
+  &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+    &lt;span style=&quot;font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;strong&gt;Method&lt;/strong&gt; &amp;#8211; Step by step lab learning taking student developer through structured app dev example&lt;/span&gt;
+  &lt;/p&gt;
+  
+  &lt;h3&gt;
+    &lt;span style=&quot;background-color: transparent; font-family: Arial; font-size: 15px; white-space: pre-wrap; line-height: 1.15;&quot;&gt;Goal &amp;#8211; Developer will be able to build applications that interact with key services&lt;/span&gt;
+  &lt;/h3&gt;
+  
+  &lt;ul style=&quot;margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+    &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+      &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+        &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Git, Gerrit, Jenkins, Config Mgmt &amp;#8211; Puppet  (pre-canned within Glance Image)&lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/li&gt;
+    
+    &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+      &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+        &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Glance (Deploy instance image from &amp;#8211; Puppet )&lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/li&gt;
+    
+    &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+      &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+        &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Nova (instance  deployed too)&lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/li&gt;
+    
+    &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+      &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+        &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Swift (Display Image in web app from, set meta-information about)&lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/li&gt;
+    
+    &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+      &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+        &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Keystone &amp;#8211; User with authenticate into web app into Keystone API&lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  
+  &lt;h3&gt;
+    &lt;span style=&quot;background-color: transparent; font-family: Arial; font-size: 15px; white-space: pre-wrap; line-height: 1.15;&quot;&gt;Future Goal &amp;#8211;  Advanced Topics for super star dev &amp;#8211; Thoughts Captured Here, &lt;/span&gt;
+  &lt;/h3&gt;
+  
+  &lt;ul style=&quot;margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+    &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+      &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+        &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Telemetry &amp;#8211; Pull performance information and display it in webapp&lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/li&gt;
+    
+    &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+      &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+        &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Heat &amp;#8211; Create set of templates for supporting services&lt;/span&gt;
+      &lt;/p&gt;
+      
+      &lt;ul style=&quot;margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+        &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: circle; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+          &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+            &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Create orchestration template for DBaaS (Trove)&lt;/span&gt;
+          &lt;/p&gt;
+        &lt;/li&gt;
+        
+        &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: circle; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+          &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+            &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Trigger creation of extra services using Heat Template&lt;/span&gt;
+          &lt;/p&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    
+    &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+      &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+        &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Trove &amp;#8211; Pull content from DBaaS, Need to push content in&lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/li&gt;
+    
+    &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+      &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+        &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Networking &amp;#8211; &lt;/span&gt;
+      &lt;/p&gt;
+      
+      &lt;ul style=&quot;margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+        &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: circle; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+          &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+            &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Neutron &amp;#8211; Create security group between web app nodes and trove instances&lt;/span&gt;
+          &lt;/p&gt;
+        &lt;/li&gt;
+        
+        &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: circle; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+          &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+            &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Neutron + ODL &amp;#8211; Create App Policy Contract (super duper bonus points)&lt;/span&gt;
+          &lt;/p&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    
+    &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+      &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+        &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Marconi (queueing) &amp;#8211; Pass information between app instances using marconi message bus&lt;/span&gt;
+      &lt;/p&gt;
+      
+      &lt;ul style=&quot;margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+        &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: circle; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+          &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+            &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Pass user input to be displayed on all pages through form input to display on local instance, as well as secondary instance&lt;/span&gt;
+          &lt;/p&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    
+    &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+      &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+        &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Savanna&lt;/span&gt;
+      &lt;/p&gt;
+      
+      &lt;ul style=&quot;margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+        &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: circle; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+          &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+            &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Integrated EDP portal page into web page&lt;/span&gt;
+          &lt;/p&gt;
+        &lt;/li&gt;
+        
+        &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: circle; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+          &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+            &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Pull user information from Trove / MySQL, push through pre-canned mapreduce file, output in Swift&lt;/span&gt;
+          &lt;/p&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    
+    &lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: disc; font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline;&quot;&gt;
+      &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+        &lt;span style=&quot;background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Docs &amp;#8211; Create user documentation linked from web app using Docbooks pipeline&lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  
+  &lt;h3&gt;
+    &lt;span style=&quot;background-color: transparent; font-family: Arial; font-size: 15px; white-space: pre-wrap; line-height: 1.15;&quot;&gt;Content Locations&lt;/span&gt;
+  &lt;/h3&gt;
+  
+  &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+    &lt;span style=&quot;font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Git Repo + Sub Folders&lt;/span&gt;
+  &lt;/p&gt;
+  
+  &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+    &lt;span style=&quot;font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;a href=&quot;https://github.com/openstack/openstack-manuals/tree/master/doc/training-guides&quot;&gt;https://github.com/openstack/openstack-manuals/tree/master/doc/training-guides&lt;/a&gt;&lt;/span&gt;
+  &lt;/p&gt;
+  
+  &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+    &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+      &lt;span style=&quot;font-family: Arial; font-size: 15px; line-height: 17px; white-space: pre-wrap;&quot;&gt;Specific Files (day 2-4 of course)&lt;/span&gt;
+    &lt;/p&gt;
+    
+    &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+      &lt;span style=&quot;font-size: 15px; font-family: Arial; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;bk003-ch005-developer-apis-day-two-lab.xml&lt;/span&gt;
+    &lt;/p&gt;
+    
+    &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+      &lt;span style=&quot;background-color: transparent; font-family: Arial; font-size: 15px; white-space: pre-wrap; line-height: 1.15;&quot;&gt;bk003-ch007-developer-apis-day-three-lab.xml&lt;/span&gt;
+    &lt;/p&gt;
+    
+    &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+      &lt;span style=&quot;background-color: transparent; font-family: Arial; font-size: 15px; white-space: pre-wrap; line-height: 1.15;&quot;&gt;bk003-ch009-developer-apis-day-four-lab.xml&lt;/span&gt;
+    &lt;/p&gt;
+    
+    &lt;h3&gt;
+      &lt;span style=&quot;background-color: transparent; font-family: Arial; font-size: 15px; white-space: pre-wrap; line-height: 1.15;&quot;&gt;Why I do this crazy stuff&lt;/span&gt;
+    &lt;/h3&gt;
+    
+    &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+      &lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-size: 15px; line-height: 17px; white-space: pre-wrap;&quot;&gt;I’m a core review on OpenStack docs, and co-founder of OpenStack training. My hippy streak runs strong, and I believe that by lowering barriers to adoption of platforms we will continue to get more Operators involved. Teaching developers to consume OpenStack is as important as teaching engineers to Operate and Install it. While this burns many nights and weekends, I absolutely love being a small part of this amazing community. And every once and a while what I do makes a difference. That is an epic win.&lt;/span&gt;&lt;/span&gt;
+    &lt;/p&gt;
+    
+    &lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;&quot;&gt;
+      &lt;span style=&quot;background-color: transparent; font-family: Arial; font-size: 15px; white-space: pre-wrap; line-height: 1.15;&quot;&gt; &lt;/span&gt;
+    &lt;/p&gt;
+    
+    &lt;h3&gt;
+    &lt;/h3&gt;
+&lt;/p&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Mar 2014 00:00:00 -0600</pubDate>
+        <link>http://yourdomain.com/openstack-training-dev-track-lab-learning-3day-labs-day-234/</link>
+        <guid isPermaLink="true">http://yourdomain.com/openstack-training-dev-track-lab-learning-3day-labs-day-234/</guid>
+        
+        <category>openstack</category>
+        
+        <category>OpenStack Training</category>
+        
+        
+        <category>openstack</category>
+        
+      </item>
+    
+      <item>
+        <title>The changing value of the CCIE</title>
+        <description>&lt;div id=&quot;header&quot; style=&quot;font-family: Georgia, serif;&quot;&gt;
+  &lt;p style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver;&quot;&gt;
+    &lt;span style=&quot;font-family: Georgia, serif; color: #333333; font-size: 14px; line-height: 1.5em;&quot;&gt;It is my belief that classic network engineering skills (with the current revisions of the CCIE being the pinnacle) are currently in the process of losing value. My thoughts supporting my belief, as well as recommendations on actions are contained below.&lt;/span&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;content&quot; style=&quot;font-family: Georgia, serif;&quot;&gt;
+  &lt;div id=&quot;preamble&quot; style=&quot;margin-top: 1.5em; margin-bottom: 1.5em;&quot;&gt;
+    &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          &lt;a href=&quot;http://www.colinmcnamara.com/wp-content/uploads/2014/03/Who-Moved-My-Cheese-Food-Lines.jpg&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-1828&quot; alt=&quot;CCIE DevOps Value&quot; src=&quot;http://www.colinmcnamara.com/wp-content/uploads/2014/03/Who-Moved-My-Cheese-Food-Lines.jpg&quot; width=&quot;550&quot; height=&quot;421&quot; /&gt;&lt;/a&gt;
+        &lt;/p&gt;
+        
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          I believe that the shift to programatic control of infrastructure, led by shifts in the tools, process’s and methodologies used in modern application development will shrink the available job pool for classic engineering skill-sets.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          I believe that a prudent course of action for any engineer looking to gain the CCIE value proposition, or any one who current benefits from their number to diversify (and) enhance their current skills by learning software development skills. My views on this are completely transparent and open. This unfortunately triggers emotional reactions in people who invested huge amounts of time, money and focus on getting to the top tier of their career (The CCIE).
+        &lt;/p&gt;
+        
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          In the future, the CCIE may evolve to take into account programmatic skills. This may or may not happen on an unknown timeline. I am not sure that even the evolution of the CCIE track alone will be sufficient to support the current salary premium in the marketplace.
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;sect1&quot;&gt;
+    &lt;h2 id=&quot;_certification_industry_influence&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+      Certification Industry Influence
+    &lt;/h2&gt;
+    
+    &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          For many years there has been an entire industry selling candidates on the idea of a job for life, of the golden ticket, your CCIE number. This is a good business for the Cert industry, and also can be very good for the candidate as it allows them to grow their salary (value) immensely in a very short period of time.
+        &lt;/p&gt;
+        
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em; text-align: center;&quot;&gt;
+          &lt;a href=&quot;http://www.colinmcnamara.com/wp-content/uploads/2014/03/ine-ccie-candidate-party-cropped.jpg&quot;&gt;&lt;img class=&quot;aligncenter  wp-image-1834&quot; alt=&quot;ine-ccie-candidate-party-cropped&quot; src=&quot;http://www.colinmcnamara.com/wp-content/uploads/2014/03/ine-ccie-candidate-party-cropped.jpg&quot; width=&quot;420&quot; height=&quot;405&quot; /&gt;&lt;/a&gt;
+        &lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          What people fail to do however, is fully understand why their cert, or skill has value. They only look at the current state of the market. Value of a certification is derived from a simple supply / demand relationship of certified individuals / available work. When there is more work to do, than people to do it salaries rise. When there are more people than work, then salaries fall. It actually is as simple as that (there are other external factors that contribute to CCIE salaries such as vendor programs, however they aren’t as significant as the supply/demand discussion here).
+        &lt;/p&gt;
+        
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+             
+          
+          &lt;div class=&quot;sect1&quot;&gt;
+            &lt;h2 id=&quot;_simple_rules_for_a_career_in_tech&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+              Simple Rules for a Career in Tech
+            &lt;/h2&gt;
+            
+            &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  Can you have a successful career in technology? Yes you can, there are some simple concepts to follow.
+                &lt;/p&gt;
+                
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  I have taken these topics from a book we used to give people before they got re-organized, or laid off years ago (2004 I think) at a previous global enterprise service provider with thousands of employees. That company got caught in the bind of change,  the employees paid the price. This book was given to the ones that got saved from the chopping block to help them see that change is inevitable, and that given the right attitude and perspective it can be the best thing ever.
+                &lt;/p&gt;
+                
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  &lt;a href=&quot;http://www.colinmcnamara.com/wp-content/uploads/2014/03/Who-moved-my-cheese-book.jpg&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-1835&quot; alt=&quot;Who Moved My Cheese&quot; src=&quot;http://www.colinmcnamara.com/wp-content/uploads/2014/03/Who-moved-my-cheese-book.jpg&quot; width=&quot;320&quot; height=&quot;320&quot; /&gt;&lt;/a&gt;
+                &lt;/p&gt;
+                
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  Free Resources so you can read the very short book &amp;#8220;Who Moved My Cheese&amp;#8221;
+                &lt;/p&gt;
+                
+                &lt;p&gt;
+                  &lt;a href=&quot;http://classes.sdc.wsu.edu/classes/cstm301/readings/who%20moved%20my%20cheese.pdf&quot;&gt;Who Moved My Cheese PDF &lt;/a&gt;  &amp;#8211; A great book (Short and downloadable) on the mental challenges of dealing with change.
+                &lt;/p&gt;
+                
+                &lt;p&gt;
+                  &lt;a href=&quot;http://www.youtube.com/watch?v=aQ6Uxd1QY9c&quot;&gt;Who moved my Cheese Audio Book on Youtube&lt;/a&gt; &amp;#8211; If you live on the road, play it on your cell phone
+                &lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          
+          &lt;div class=&quot;sect1&quot;&gt;
+            &lt;h2 id=&quot;_1_change_happens&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+              1. Change happens
+            &lt;/h2&gt;
+            
+            &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  The only constant in our industry is change. I’ve been in this industry for 17 years now. Rates of change ebb and flow. Over the past 10 years much of our industry has been in a steady state. While change (innovation) constantly occurs, it stays within the same skill dimensions that define our &amp;#8220;Value&amp;#8221;.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  In my opinion, this steady state was brought on unnaturally by the mass implementation of market management strategies popularized by Geoff Moore (crossing the chasm). The implementation of a common strategy has provided the illusion of safety in the IT Ops / Engineering job roles over the past 10-15 years.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  And now for a scary truth. Times are changing. The mass adoption of market stabilization strategies that resulted many people flocking to certifications and specialization as a method of fast tracking their careers is being shifted to a mode where innovation and change is the norm.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  Specifically, there are many people who have been enjoying immense value from investments long long agon. Those that believe that the luxury of steady state technology will last risk experiencing the result of what happens when an industry evolves, but they don’t.
+                &lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          
+          &lt;div class=&quot;sect1&quot;&gt;
+            &lt;h2 id=&quot;_2_anticipate_change&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+              2. Anticipate Change
+            &lt;/h2&gt;
+            
+            &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  There is a huge mental leap that a person has to go through to succeed in a tech shift. You have to go from assuming that your value of today will always be your value, to identifying your ability to adapt, move and learn as your only persistent value.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  When you identify mobility and ability to grow as a value, you start a very productive habit &amp;#8211; Constantly evaluating whatever is making you money, your CCIE, EMCTA, VCDX, etc is still viable. And part of that is clearly understanding why it gives you value, and what may change that equation. This method allows you to anticipate changes before they occur.
+                &lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          
+          &lt;div class=&quot;sect1&quot;&gt;
+            &lt;h2 id=&quot;_3_monitor_change&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+              3. Monitor Change
+            &lt;/h2&gt;
+            
+            &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  Once you have decomposed the value of your Certification, Job or Skill into WHY it is valuable (why do people pay you for it). Then you have a clear &amp;#8220;non marketing&amp;#8221; view of what challenges that value.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  In some cases lowering barriers to entry for a specific skill or cert increase the hiring pool. This increased hiring pool can hit an inflection point where the number of people with that skill or cert changes from being less then the available job pool (less people and more jobs = higher pay) to the inverse, where there are more people then jobs (this causes pay to drop).
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  Many things can drive this very simple ratio (supply and demand) The one example is increasing competition for a fixed number of jobs. This happened to the MCSE years ago. Early on, these were the CCIE’s of the time. However because of easy access to software to learn on, the value of a person with an MCSE dropped.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  Another example of the Supply/Demand ratio changing is when a technology shift lowers the need for skilled workers in a segment.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  I personally have seen this countless times in our industry. Manufacturers, and certified individuals are sitting high on the horse, printing money and then very quickly a tipping point happens and entire segments are wiped out.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  In technology, the mainframe operator was one example. In the past this was the pinnacle of IT Ops. A friends wife worked as one at Chevron years ago. She was on a team of 60 operators, the ninja’s of IT. Within 12 months she was the only one left. Change happened, and most on the team didn’t believe until it was too late.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  Other examples in more recent history is the Novel Administrator. There was a time, not so long ago where the Master CNE was the CCIE of the time. There were huge salaries granted to &amp;#8220;certified&amp;#8221; individuals to run this IT infrastructure.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  What happened? A little company up in Redmond decided to rip off Novell Directory Service(NDS) and package it with some workgroup file sharing and messaging/calendar services. Within 36 months of Microsoft releasing Active Directory the market for Novell Master CNE’s had completely dried up.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  Many were left behind, but the best Microsoft Architects I know are former Master CNE’s. They clearly understood that their current value was not their future value. Instead of being afraid of Microsoft, they learned about it, and when the time was right they leveraged this new knowledge and expertise to define their NEW value.
+                &lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          
+          &lt;div class=&quot;sect1&quot;&gt;
+            &lt;h2 id=&quot;_4_adapt_to_change_quickly&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+              4. Adapt to change quickly
+            &lt;/h2&gt;
+            
+            &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  At some point, while monitoring for changes in their ability to earn money, these individuals saw the market, tech, whatever hit a tipping point.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  Once at that point, their focus switched from monitoring the rate of change in their current skill set, to prepping to flip to the new cheese, the new cert, the new skill that will provide for them and their families for the next couple years.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  Did they focus on why the old cert or skill was decreasing in value? Did they cry and argue about it? No, they understood that change is a constant in our industry. &lt;strong style=&quot;color: #083194;&quot;&gt;They understood that the only way to ensure success and survival is constant forward motion. They understood that the key to success is change.&lt;/strong&gt;
+                &lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          
+          &lt;div class=&quot;sect1&quot;&gt;
+            &lt;h2 id=&quot;_5_change&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+              5. Change
+            &lt;/h2&gt;
+            
+            &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  Once you have mentally shifted from static to dynamic, from enjoying the rewards of work, to knowing that there is much more work, but huge benefits ahead you have to enact change.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  One interesting fact about change. The first people to change are known as leaders in the industry. The value of those certs, skills, etc are very high once you &amp;#8220;cross the chasm&amp;#8221; of about 10% market adoption. Living and working in the first part of the adoption curve is a great way to earn a living. The only catch is you have to be in a constant state of flux. Your value at that point is the ability to identify for, and exploit change for your benefit. (vs change destroying your value in static modes)
+                &lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          
+          &lt;div class=&quot;sect1&quot;&gt;
+            &lt;h2 id=&quot;_6_enjoy_the_change&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+              6. Enjoy the Change
+            &lt;/h2&gt;
+            
+            &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  Change is great, we are all in this industry for many different reasons. I myself entered the technology industry by pure chance 17 years ago. I have had many different certs, skills and roles over those years. Luckily, early on I found that I gained great satisfaction in learning new things. I also found that people will give you money when you know something new. This has led to a habit throughout my career, of always looking for something new and transformational. And to take joy in that transformation. The joy of learning and sharing is immense. It fuels the soul. It also doesn’t hurt that you can make quite a good living out of it.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  Once you learn to enjoy the act of change, you will find that your perspective during tech transitions changes from fear, to wonder. That this world and industry is an amazing place.
+                &lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          
+          &lt;div class=&quot;sect1&quot;&gt;
+            &lt;h2 id=&quot;_7_be_ready_to_change_quickly_and_enjoy_it_again&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+              7. Be ready to change quickly and enjoy it again
+            &lt;/h2&gt;
+            
+            &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  One thing to remember however is &amp;#8211; You must always be ready to change quickly and enjoy it again. This is not the first, nor will it be the last change that happens. Change is a constant in this industry embrace it, love it, live it.
+                &lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          
+          &lt;div class=&quot;sect1&quot;&gt;
+            &lt;h2 id=&quot;_my_perspective_starting_poor&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+              My perspective &amp;#8211; Starting poor
+            &lt;/h2&gt;
+            
+            &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  In the book who moved my cheese, they call out two groups. Mice who instinctually are always looking for new cheese, and lilliputians who believe that the room their cheese is in will always exist.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  I am the mouse who is always looking for food. I grew up in a smaller town, my Dad left my Mom and I when I was 2. My Mom worked at a rug factory, and then got a job as a secretary typing reports, and then moved up to the front desk at the local police department.
+                &lt;/p&gt;
+                
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  I never understood that concept of a job for life, or always having things that other people had.  In my world work in any way possible was a reality to get anything that I wanted(or felt I needed). I did a range of odd jobs as a kid to get money, wash cars, mow lawns, wax airplanes, clear debris, wait tables, cold call for surveys. This combined with some really awesome people (who didn&amp;#8217;t have to be so awesome, they choose to be that awesome) gave me the same opportunity to succeed that most people around me enjoyed as a privilege of being born into a stable family.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;sect1&quot;&gt;
+                &lt;h2 id=&quot;_6_enjoy_the_change&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+                  Learning Technology Changed My Life
+                &lt;/h2&gt;
+                
+                &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+                  &lt;div class=&quot;paragraph&quot;&gt;
+                    &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                      As a young adult (18), I was two weeks from being homeless, living off cold 25 cent hamburgers from McDonalds and Top Ramen when I got my first job in tech. I was literally walking up to apply at Taco Bell when I ran into an old friend that gave me a chance to start on the midnight shift building PC’s.
+                    &lt;/p&gt;
+                    
+                    &lt;div class=&quot;paragraph&quot;&gt;
+                      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                        I took the the opportunity that was given to me, and learned everything I could from that job. I learned Windows, FreeBSD, SCO, Linux, Routing/Switching, Wireless Backhaul, Key Systems(Phones), Novell, VoiceMail Systems all in a two year period. Within six months I had been promoted from the midnight shift to the day shift doing more advanced support. Six months later I got busted hacking the sales floor PC&amp;#8217;s to make them pop up stupid messages and instead of getting fired, I got promoted to running the ISP side (DKAonline).
+                      &lt;/p&gt;
+                    &lt;/div&gt;
+                    
+                    &lt;div class=&quot;paragraph&quot;&gt;
+                      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                        Since that moment I have spent at least 1 hour a day for the past 17 years learning something new. I will never go back to being poor and hungry. I know that the great life that my family and I have is dependent on skills and industry constructs that are transient.&lt;span style=&quot;color: #333399;&quot;&gt; &lt;strong&gt;The only way I can guarantee my ability to provide is to be able to constantly change.&lt;/strong&gt;&lt;/span&gt;
+                      &lt;/p&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                
+                &lt;div class=&quot;sect1&quot;&gt;
+                  &lt;h2 id=&quot;_how_this_affects_you&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+                    How this affects you
+                  &lt;/h2&gt;
+                  
+                  &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+                    &lt;div class=&quot;paragraph&quot;&gt;
+                      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                        Today, there are major shifts going on. Network Engineering to Network Development(SDN), Enterprise Virtualization to cloud platforms, etc etc. Development organizations are changing how they operate, IT organizations are feeling more and more pressure every day.
+                      &lt;/p&gt;
+                    &lt;/div&gt;
+                    
+                    &lt;div class=&quot;paragraph&quot;&gt;
+                      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                        I fully believe that the progression of technology will affect the hiring pool. I believe that the value that the CCIE currently holds will be replaced by the concept of &amp;#8220;Network Developer&amp;#8221;. As I have gained more and more experience with using Software Dev Tools to do the job that my fingers and brain used do do in the past I am left with one single clear concept &amp;#8211;
+                      &lt;/p&gt;
+                    &lt;/div&gt;
+                    
+                    &lt;div class=&quot;paragraph&quot;&gt;
+                      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                        &lt;strong style=&quot;color: #083194;&quot;&gt;The only thing that provides safety is constant forward movement.&lt;/strong&gt;
+                      &lt;/p&gt;
+                    &lt;/div&gt;
+                    
+                    &lt;div class=&quot;paragraph&quot;&gt;
+                      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                        I hope that those that are afraid of this change in the industry will notice the opportunity in front of them, and use it for growth vs letting the world move past them.
+                      &lt;/p&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                
+                &lt;div class=&quot;sect1&quot;&gt;
+                  &lt;h2 id=&quot;_resources&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+                    Resources
+                  &lt;/h2&gt;
+                  
+                  &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+                    &lt;div class=&quot;paragraph&quot;&gt;
+                      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                        &lt;a style=&quot;color: fuchsia;&quot; href=&quot;http://classes.sdc.wsu.edu/classes/cstm301/readings/who%20moved%20my%20cheese.pdf&quot;&gt;Who Moved My Cheese PDF &lt;/a&gt;  &amp;#8211; A great book (Short and downloadable) on the mental challenges of dealing with change.
+                      &lt;/p&gt;
+                      
+                      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                        &lt;a href=&quot;http://www.youtube.com/watch?v=aQ6Uxd1QY9c&quot;&gt;Who moved my Cheese Audio Book on Youtube&lt;/a&gt; &amp;#8211; If you live on the road, play it on your cell phone
+                      &lt;/p&gt;
+                    &lt;/div&gt;
+                    
+                    &lt;div class=&quot;paragraph&quot;&gt;
+                      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                        &lt;a style=&quot;color: fuchsia;&quot; href=&quot;http://www.learnpythonthehardway.org&quot;&gt;Learn Python the Hard Way&lt;/a&gt; &amp;#8211; Free self paced Python training online
+                      &lt;/p&gt;
+                    &lt;/div&gt;
+                    
+                    &lt;div class=&quot;paragraph&quot;&gt;
+                      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                        &lt;a style=&quot;color: fuchsia;&quot; href=&quot;http://docs.openstack.org/training-guides/content/&quot;&gt;OpenStack Training&lt;/a&gt; &amp;#8211; Free, Community developed and maintained training for OpenStack
+                      &lt;/p&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              
+              &lt;div id=&quot;footer&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; font-size: small; border-top-width: 2px; border-top-style: solid; border-top-color: silver; padding-top: 0.5em; margin-top: 4em;&quot;&gt;
+                &lt;div id=&quot;footer-text&quot; style=&quot;float: left; padding-bottom: 0.5em;&quot;&gt;
+                  Last updated 2014-03-01 16:36:11 PST
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Tue, 04 Mar 2014 00:00:00 -0600</pubDate>
+        <link>http://yourdomain.com/the-changing-value-of-the-ccie/</link>
+        <guid isPermaLink="true">http://yourdomain.com/the-changing-value-of-the-ccie/</guid>
+        
+        <category>CCIE</category>
+        
+        <category>DevOps</category>
+        
+        <category>openstack</category>
+        
+        
+        <category>ccie</category>
+        
+        <category>devops</category>
+        
+      </item>
+    
+      <item>
+        <title>Changing face of the OpenStack community</title>
+        <description>&lt;div class=&quot;sect1&quot; style=&quot;font-family: Georgia, serif;&quot;&gt;
+  &lt;h2 id=&quot;_the_business_of_openstack&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+    The business of OpenStack
+  &lt;/h2&gt;
+  
+  &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+    &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        The business of open source can be dominated by some strong personalities. Many companies are trying to use their first mover advantage to create sustainable business models. The reality is that statistically many will fail, as a second to market strategy combined with early experimentation with R&amp;amp;D allows a diversification of monetization vehicles, while maintaining cash flow. (e.g. most of these small guys are fighting for a small pie, and I believe are likely to at minimum recieve buyout offers, and depending on the cash flow may be likely to accept them). This fact of a maturing market may cause people to miss what I believe is the secret sauce of the Open Source community.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;sect1&quot; style=&quot;font-family: Georgia, serif;&quot;&gt;
+  &lt;h2 id=&quot;_the_beautiful_truth_of_open_source&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+    The beautiful truth of Open Source
+  &lt;/h2&gt;
+  
+  &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+    &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        What may be a bit harder to see, there is alignment between the R&amp;amp;D organizations of Vendors, Operators and Integrators. There is this beautiful truth that emerges when you are dealing with some of the smartest people in the industry, who don’t really care about gear with a certain logo being pushed. Their real goal is to combine as a community to drive experimentation and innovation in a shared domain.
+      &lt;/p&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        For me, Open Source communities are a place I don’t have to deal with vendor alignment. Where I can state my beliefs, thoughts and experiments and have them analyzed by people much smarter then me. The intellectual (and for me emotional) support of being part of something bigger, with mostly altruistic goals of improving the cutting edge of technology is one of the things that keeps me sane.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;sect1&quot; style=&quot;font-family: Georgia, serif;&quot;&gt;
+  &lt;h2 id=&quot;_how_the_project_is_being_influenced&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+    How the project is being influenced
+  &lt;/h2&gt;
+  
+  &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+    &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        Of course, over the past couple years the OpenStack community has transformed. When I first got engaged with the community in late 2011/early 2012) It was a community where across the board I could feel safe and frankly anonymous. I could be a small fish in a big pond learning and growing from everyone around me. I was surrounded by people with beards, tattoo’s and t-shirts who in their spare time made software products that rivaled the best commercial R&amp;amp;D groups in the world.
+      &lt;/p&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        Over the past year however, it has become the battleground for vendors to establish a common reference to support the same strategies used in IETF for the past decade. The politics and business models that are an every day experience in IETF, have changed my experience in OpenStack from a place where I felt like I identified completely with a community of like minded individuals, to a place where those same individuals exist (and I gravitate towards them to continue to drive forward technology as a community), but the larger message and tone is becoming dominated by business interests. It is a necessary and expected evolution of the project, however it introduces all sorts of drama into something that I have grown to love.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;sect1&quot; style=&quot;font-family: Georgia, serif;&quot;&gt;
+  &lt;h2 id=&quot;_changing_face_of_the_community&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+    Changing face of the community
+  &lt;/h2&gt;
+  
+  &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+    &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        This changing balance of power, from innovators to corporations (and in some cases the innovators themselves have changed) is affecting my experience in the community. In some cases, such as the ability to monetize the R&amp;amp;D investments of my day job, this is a good thing. This shift allows me to put even more resources into really amazing transformative community education projects like OpenStack Training, as well as expand development resources that have OpenSource contributions as part of their 9-5 jobs.
+      &lt;/p&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        In other cases, this larger shift from innovation to monetization has driven me mad. The various corporations can be expected act in their self interest, in some cases battling against each other and catching those of us with beards (and most of the time not in suits) in the middle. I do believe that there is a strong middle ground. Where we as a community, that is inclusive of Operator, Integrator, Educator and Vendor can all work together in a sane way. I do believe we can preserve and protect this beautiful community we have built. My personal belief is that we need to help Operators and Educators(Researchers in EDU) to integrate into the community and be able to stand as an independent voice of reason.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;sect1&quot; style=&quot;font-family: Georgia, serif;&quot;&gt;
+  &lt;h2 id=&quot;_my_hope&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+    My Hope
+  &lt;/h2&gt;
+  
+  &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+    &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+        I hope that we as a community work together to provide balance to the force. To protect and accelerate the is innovation forge that is centered around OpenStack, but also extends to all sorts of adjacent platforms and projects. I think we can do it, hell. I think we must do it. And while I’m not always the most popular person for voicing my opinions, my goals are simple to accelerate the pace of innovation in the new norm, where Vendor, Integrator, Educator and Operator all share the burden and benefits of invention. As a community working together, I think we can get there.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 01 Mar 2014 00:00:00 -0600</pubDate>
+        <link>http://yourdomain.com/changing-face-of-the-openstack-community/</link>
+        <guid isPermaLink="true">http://yourdomain.com/changing-face-of-the-openstack-community/</guid>
+        
+        <category>corporations</category>
+        
+        <category>drama</category>
+        
+        <category>hippy</category>
+        
+        <category>openstack</category>
+        
+        
+        <category>openstack</category>
+        
+      </item>
+    
+      <item>
+        <title>OpenStack Summit Presentations &amp;#8211; VOTE NOW!</title>
+        <description>&lt;div id=&quot;content&quot; style=&quot;font-family: Georgia, serif;&quot;&gt;
+  &lt;div id=&quot;preamble&quot; style=&quot;margin-top: 1.5em; margin-bottom: 1.5em;&quot;&gt;
+    &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          It’s time to vote for presentations for OpenStack Summit in Atlanta. I’ve submitted a few presentations, as well am co-submitting some presentations with people I really respect in the community. I’ve stack ranked what I feel are the priorities to discuss in each, as well as &lt;strong style=&quot;color: #083194;&quot;&gt;bolded the critical presentations&lt;/strong&gt; in each area. If you find these valuable, please let your voice be heard and vote.
+        &lt;/p&gt;
+        
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          Now, a great presentation may not be listed in here. I&amp;#8217;m under a bit of a time crunch right now, and took the short list of presentations I&amp;#8217;ve discussed with people. As I got through and do my own voting I&amp;#8217;ll add in others that are of value and merit to the community.
+        &lt;/p&gt;
+        
+        &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+          &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+            &lt;span style=&quot;font-size: 1.5em; color: #527bbd; font-family: Arial, Helvetica, sans-serif; line-height: 1.3;&quot;&gt;Critical Presentations to discuss at the Summit&lt;/span&gt;
+          &lt;/p&gt;   
+          
+          &lt;div class=&quot;sect1&quot;&gt;
+            &lt;div class=&quot;paragraph&quot; style=&quot;font-family: Georgia, serif;&quot;&gt;
+              &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                &lt;strong style=&quot;color: #083194;&quot;&gt;CI Pipeline Bootcamp submitted by Sean Roberts ( Speakers: Colin McNamara, Sean Roberts, Tom Fifield, Monty Taylor )&lt;a style=&quot;color: fuchsia;&quot; href=&quot;https://www.openstack.org/vote-atlanta/Presentation/ci-pipeline-bootcamp&quot;&gt;https://www.openstack.org/vote-atlanta/Presentation/ci-pipeline-bootcamp&lt;/a&gt;&lt;/strong&gt;
+              &lt;/p&gt;
+            &lt;/div&gt;
+            
+            &lt;div class=&quot;paragraph&quot; style=&quot;font-family: Georgia, serif;&quot;&gt;
+              &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                &lt;strong style=&quot;color: #083194;&quot;&gt;OpenStack University Courses submitted by Sean Roberts ( Speakers: Tristan Goode, Colin McNamara, Sean Roberts, Loic Dachary, Matjaž Pančur ) &lt;a style=&quot;color: fuchsia;&quot; href=&quot;https://www.openstack.org/vote-atlanta/Presentation/openstack-university-courses&quot;&gt;https://www.openstack.org/vote-atlanta/Presentation/openstack-university-courses&lt;/a&gt;&lt;/strong&gt;
+              &lt;/p&gt;
+            &lt;/div&gt;
+            
+            &lt;div class=&quot;paragraph&quot; style=&quot;font-family: Georgia, serif;&quot;&gt;
+              &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                &lt;strong style=&quot;color: #083194;&quot;&gt;Contributing back as an Operator ( Speaker: Colin McNamara ) &lt;a style=&quot;color: fuchsia;&quot; href=&quot;https://www.openstack.org/vote-atlanta/Presentation/contributing-back-as-and-operator&quot;&gt;https://www.openstack.org/vote-atlanta/Presentation/contributing-back-as-and-operator&lt;/a&gt;&lt;/strong&gt;
+              &lt;/p&gt;
+            &lt;/div&gt;
+            
+            &lt;div class=&quot;paragraph&quot; style=&quot;font-family: Georgia, serif;&quot;&gt;
+              &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                &lt;strong style=&quot;color: #083194;&quot;&gt;OpenStack Training &amp;#8211; Community Created and Delivered Training for OpenStack ( Speakers: Colin McNamara, Sean Roberts )&lt;a style=&quot;color: fuchsia;&quot; href=&quot;https://www.openstack.org/vote-atlanta/Presentation/openstack-training-community-created-and-delivered-training-for-openstack&quot;&gt;https://www.openstack.org/vote-atlanta/Presentation/openstack-training-community-created-and-delivered-training-for-openstack&lt;/a&gt;&lt;/strong&gt;
+              &lt;/p&gt;
+            &lt;/div&gt;
+            
+            &lt;h2 style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+              Community Presentations
+            &lt;/h2&gt;
+            
+            &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  OpenStack Participation submitted by Sean Roberts ( Speakers: Colin McNamara, Sean Roberts, Stefano Maffulli, Heidi Bretz ) &lt;a style=&quot;color: fuchsia;&quot; href=&quot;https://www.openstack.org/vote-atlanta/Presentation/openstack-participation&quot;&gt;https://www.openstack.org/vote-atlanta/Presentation/openstack-participation&lt;/a&gt;
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  Trainer Rating System submitted by Sean Roberts ( Speakers: Colin McNamara, Sean Roberts, Mark Collier, Pranav Salunke ) &lt;a style=&quot;color: fuchsia;&quot; href=&quot;https://www.openstack.org/vote-atlanta/Presentation/trainer-rating-system&quot;&gt;https://www.openstack.org/vote-atlanta/Presentation/trainer-rating-system&lt;/a&gt;
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  Hackathon Syllabus submitted by Sean Roberts ( Speakers: Kyle Mestery, Colin McNamara, Sean Roberts, Shannon McFarland ) &lt;a style=&quot;color: fuchsia;&quot; href=&quot;https://www.openstack.org/vote-atlanta/Presentation/hackathon-syllabus&quot;&gt;https://www.openstack.org/vote-atlanta/Presentation/hackathon-syllabus&lt;/a&gt;
+                &lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          
+          &lt;div class=&quot;sect1&quot;&gt;
+            &lt;h2 id=&quot;_presentations_directly_submitted_by_me_stack_ranked&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; color: #527bbd; margin-top: 1.2em; margin-bottom: 0.5em; line-height: 1.3; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: silver; padding-top: 0.5em;&quot;&gt;
+              Presentations Directly Submitted by me
+            &lt;/h2&gt;
+            
+            &lt;div class=&quot;sectionbody&quot; style=&quot;margin-left: 0px;&quot;&gt;
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  Multi-Node DevStack w/ Puppet ( Speaker: Colin McNamara ) &lt;a style=&quot;color: fuchsia;&quot; href=&quot;https://www.openstack.org/vote-atlanta/Presentation/multi-node-devstack-w-puppet&quot;&gt;https://www.openstack.org/vote-atlanta/Presentation/multi-node-devstack-w-puppet&lt;/a&gt;
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  How we failed transitioning our Engineers to Developers, and how that turned into an EPIC Win ( Speaker: Colin McNamara ) &lt;a style=&quot;color: fuchsia;&quot; href=&quot;https://www.openstack.org/vote-atlanta/Presentation/how-we-failed-transitioning-our-engineers-to-developers-and-how-that-turned-into-an-epic-win&quot;&gt;https://www.openstack.org/vote-atlanta/Presentation/how-we-failed-transitioning-our-engineers-to-developers-and-how-that-turned-into-an-epic-win&lt;/a&gt;
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  Value Stream Mapping &amp;#8211; Figuring out what should I move to OpenStack ( Speaker: Colin McNamara ) &lt;a style=&quot;color: fuchsia;&quot; href=&quot;https://www.openstack.org/vote-atlanta/Presentation/value-stream-mapping-figuring-out-what-should-i-move-to-openstack&quot;&gt;https://www.openstack.org/vote-atlanta/Presentation/value-stream-mapping-figuring-out-what-should-i-move-to-openstack&lt;/a&gt;
+                &lt;/p&gt;
+              &lt;/div&gt;
+              
+              &lt;div class=&quot;paragraph&quot;&gt;
+                &lt;p style=&quot;margin-top: 0.5em; margin-bottom: 0.5em;&quot;&gt;
+                  Agile SDN Development (TDD for SDN) using OpenDaylight, OpenStack, Open vSwitch and Mininet ( Speaker: Colin McNamara ) &lt;a style=&quot;color: fuchsia;&quot; href=&quot;https://www.openstack.org/vote-atlanta/Presentation/agile-sdn-development-tdd-for-sdn-using-opendaylight-openstack-open-vswitch-and-mininet&quot;&gt;https://www.openstack.org/vote-atlanta/Presentation/agile-sdn-development-tdd-for-sdn-using-opendaylight-openstack-open-vswitch-and-mininet&lt;/a&gt;
+                &lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt; 
+          
+          &lt;div id=&quot;footer&quot; style=&quot;font-family: Arial, Helvetica, sans-serif; font-size: small; border-top-width: 2px; border-top-style: solid; border-top-color: silver; padding-top: 0.5em; margin-top: 4em;&quot;&gt;
+          &lt;/div&gt;
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Fri, 21 Feb 2014 00:00:00 -0600</pubDate>
+        <link>http://yourdomain.com/openstack-summit-presentations-vote-now/</link>
+        <guid isPermaLink="true">http://yourdomain.com/openstack-summit-presentations-vote-now/</guid>
+        
+        <category>DevOps</category>
+        
+        <category>openstack</category>
+        
+        
+        <category>openstack</category>
+        
+      </item>
+    
+      <item>
+        <title>Open letter to Cisco about DevNet</title>
+        <description>&lt;p&gt;What I wanted to do today is, show you some of the challenges, My teams and I are having interacting with DevNet.&lt;/p&gt;
+
+&lt;p&gt;This is the developer portal, that you guys put up. To help ease teams like mine and find access to API documentation, software development tool kits, and both closed and open source code.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-perspective&quot;&gt;My perspective&lt;/h3&gt;
+
+&lt;p&gt;I’m a CCIE. I have automated and some large data centers using a wide range of API’s. I’m not a great programmer, luckily I hire people who are. My software development teams and I are building our own application stacks.&lt;/p&gt;
+
+&lt;p&gt;They run and put on Amazon right now. Our goal is to make sure that they easily and automatically deploy onto UCS platforms. And Nexus 9000’s, 5000’s, 7000’s with cool open source projects like OpenStack and OpenDaylight get integrated with them.&lt;/p&gt;
+
+&lt;h3 id=&quot;feedback-8211-devnet-is-impossible-to-use&quot;&gt;Feedback – DevNet is impossible to use&lt;/h3&gt;
+
+&lt;p&gt;&lt;img style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; title=&quot;CiscoDevnet.png&quot; alt=&quot;Cisco Devnet&quot; src=&quot;http://www.colinmcnamara.com/wp-content/uploads/2014/02/CiscoDevnet.png&quot; width=&quot;500&quot; height=&quot;250&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m going to tell you something, that’s probably really hard to hear. It is near impossible, to use DevNet to find information that we need to be able to achieve our goal. I think that’s your goal, helping guys like us integrate our software with gear like yours.&lt;/p&gt;
+
+&lt;h3 id=&quot;example-8211-finding-sdk8217s-and-api-docs&quot;&gt;Example – Finding SDK’s and API Docs&lt;/h3&gt;
+
+&lt;p&gt;The first thing, a really easy example, a basic thing that you’d want to do or that you’d want a developer to help a team be able to accomplish, is find SDK, find API documentation, and find software development tool kit. To allow us to hook into your gear.&lt;/p&gt;
+
+&lt;p&gt;However when me or anyone from my teams attempt to navigate to through devnet to find API / SDK’s the default is to pop us to a product page that has nothing to do with software development.&lt;/p&gt;
+
+&lt;p&gt;Instead of having my first and easiest navigation option go to the software that I’ve already made the decision to go ahead and integrate, I get sent to a product page that is trying to influence me to buy a server.&lt;/p&gt;
+
+&lt;p&gt;I’m looking for the information of, how I can integrate it. Why another product pitch? It makes no sense, absolutely no sense.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-hardware-is-not-important-the-api-and-sdk8217s-are&quot;&gt;The hardware is not important, the API and SDK’s are&lt;/h3&gt;
+
+&lt;p&gt;&lt;img style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; title=&quot;insieme-ifc-code.png&quot; alt=&quot;insieme ifc code &quot; src=&quot;http://www.colinmcnamara.com/wp-content/uploads/2014/02/insieme-ifc-code.png&quot; width=&quot;500&quot; height=&quot;230&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I don’t care what hardware data sheets there are. It’s not important. I’m looking at programmatically integrated to my system.&lt;/p&gt;
+
+&lt;p&gt;Sorry if that’s very aggressive, but this is really, really frustrating. This feedback as I bring new developers into my team, they get me too. “You told me to integrate this stuff, but where is this stuff?” First question, where’s my SDK?&lt;/p&gt;
+
+&lt;p&gt;Normally what would happen, is I would go open up my local git clone and do a get/pull (this is a linked clone of a source code repository owned / hosted somwhere else). If found the SDK before, I normally wouldn’t navigate to a site to see an update. I would have that repo integrated not only with my my local dev setup, but it would also be integrated into any tooling that I have. (Listed as a dependency, and auto built by Jenkins)&lt;/p&gt;
+
+&lt;h3 id=&quot;an-example-of-what-to-do-8211-insieme-and-webex-on-github&quot;&gt;An example of what to do – Insieme and Webex on Github&lt;/h3&gt;
+
+&lt;p&gt;One place that I love to go is http://www.github.com/CiscoSystem. This place is where the the WebEx team and some of the guys from, NOSTG push a lot of information. Kyle and Mark put a lot of stuff here too on GitHub. This is a place where developers collaborate.&lt;/p&gt;
+
+&lt;p&gt;This allows me, as someone who is integrating applications on their stuff to go ahead and, not only through a web page, go ahead and see some interesting stuff.&lt;/p&gt;
+
+&lt;p&gt;Very specifically, a great example, the Insieme team. Mike, an awesome guy on that team, has posted some interesting SDK’s information for the Nexus 5000.&lt;/p&gt;
+
+&lt;p&gt;It’s easy for me to find. I could Google it. I could search for it on GitHub. I can do a lot of cool things, things that are important to me, in my software development work flow.&lt;/p&gt;
+
+&lt;h3 id=&quot;nexus-9k-api-docs-on-github&quot;&gt;Nexus 9k API docs on Github&lt;/h3&gt;
+
+&lt;p&gt;In this example I talk about Mike Cohen’s code for Nexus 9K. This is how it should be done. Example –&lt;/p&gt;
+
+&lt;p&gt;Over the years I’ve had to hack these stupid expect scripts and interactions with NetConf to do shut/no shuts and do network testing. You get 1,000, 2,000 nodes, and with four links each you’re going to have transceiver failure and cable failures all over the place.&lt;/p&gt;
+
+&lt;p&gt;You end up writing these scripts, to go ahead and exercise the network and start tests on either end. One, it takes forever. Two, it’s a giant pain in the rear, especially when you have to diverse platforms.&lt;/p&gt;
+
+&lt;p&gt;I was poking around, and I see, “Oh, wow, someone wrote some interesting code, which, if you look at it, goes in and provides a link test.” This is really, really cool. This is code that I can use. I can integrate it into my own stuff, my own operational procedures. Not so bad.&lt;/p&gt;
+
+&lt;h3 id=&quot;use-of-developer-toolchains-for-collaboration&quot;&gt;Use of Developer Toolchains for collaboration&lt;/h3&gt;
+
+&lt;p&gt;As a developer, Git provides a set of the tools that are used to track, communicate and collaborate. We use this to answer questions like – “who the heck wrote this?” The first thing we would do was go ahead and check the log.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Who wrote this stuff? OK, I see Mike Cohen. I’ve got his email address.&lt;/li&gt;
+  &lt;li&gt;I can even go so far as to see when he did it. OK, that was at the end of December, December 19th.&lt;/li&gt;
+  &lt;li&gt;I can see exactly what was added each day. Now there’s a log for the entire repository, Mike from Nexus repository.&lt;/li&gt;
+  &lt;li&gt;I can see that there’s another developer who was contributing early on to the repository.&lt;/li&gt;
+  &lt;li&gt;I can see that if I need to get clarity or have a question about utilization of this code, I can ping Mike Cohen.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;collaborating-on-code-via-pull-requests&quot;&gt;Collaborating on code via Pull Requests&lt;/h3&gt;
+
+&lt;p&gt;Say I improve the code. I find something unique and novel that I can use in my own networks, but I’m not in the business of maintaining a small patch to this.&lt;/p&gt;
+
+&lt;p&gt;I can go ahead and make my patch. Then I can submit a pull request back to Mike. Mike just gets an email that says, “Hey, please merge this. I found this useful. Inspect the code, test it, validate it. If it’s good, merge it.”&lt;/p&gt;
+
+&lt;p&gt;That makes it something that all the community can use. I’m not in the business of maintaining these minor patches. They distract from the effectiveness of me and my team. I want to be able to submit that.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-experience-trying-to-do-this-with-the-ucs-sdk-on-communities&quot;&gt;My experience trying to do this with the UCS SDK on Communities&lt;/h3&gt;
+
+&lt;p&gt;I downloaded it from some community’s page. I don’t know who wrote it. I don’t know who to contact. I can extend it. I can keep that private. It’s a top down community. It doesn’t support the community development, that’s been really key to the growth of open source.&lt;/p&gt;
+
+&lt;h3 id=&quot;collaboration-between-manufacturer-integrator-and-customer-in-opensource&quot;&gt;Collaboration between Manufacturer, Integrator and Customer in OpenSource&lt;/h3&gt;
+
+&lt;p&gt;We saw a move of Open Source projects from SourceForge to GitHub. It’s been real. GitHub has allowed this interaction between us that’s key to our development collaboration on OpenStack and OpenDaylight, SDN controller.&lt;/p&gt;
+
+&lt;p&gt;My team is one use case. Our company is not huge, but not small. We do about a half billion in revenues, but we’re big enough that we’ve been contributing for OpenStack for two years now and OpenDaylight since mid 2013.&lt;/p&gt;
+
+&lt;p&gt;We can push code back. We can contribute into the community. Where we find things that support an unfair advantage market, a new secret sauce, things that support it, we can share the burden, we can be good stewards.&lt;/p&gt;
+
+&lt;p&gt;We collaborate with Cisco, with Red Hat, with IBM, with HP in the open domain. What I’m pointing out here is there is no method enabled within DevNet to support that collaboration.&lt;/p&gt;
+
+&lt;h3 id=&quot;cisco-devnet-needs-to-support-that-collaboration&quot;&gt;Cisco DevNet needs to support that collaboration&lt;/h3&gt;
+
+&lt;p&gt;There’s a huge opportunity to do that. I’m hoping you take that chance. It’s not about tools. It’s about the back-end. It’s about the collaboration in the community.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-recommendations&quot;&gt;My Recommendations&lt;/h3&gt;
+
+&lt;h4 id=&quot;don8217t-point-me-to-product&quot;&gt;Don’t point me to product.&lt;/h4&gt;
+
+&lt;p&gt;If I’m already looking for software integration information, I have made my purchasing decision. Shoving product in my face just gets in the way of my job.&lt;/p&gt;
+
+&lt;p&gt;If I’m so frustrated where I can’t find the API documentation and, very specifically, SDK’s, as a developer. I’m going to go to the competition and try to find theirs. It’s all about the software integration, not the tin can that we wrap a CPU in. We call that a server, right?&lt;/p&gt;
+
+&lt;h4 id=&quot;please-please-consolidate-information-onto-github&quot;&gt;Please, please consolidate information onto GitHub&lt;/h4&gt;
+
+&lt;p&gt;In the open source domain right now it’s not only where we collaborate, but it’s a tool chain that allows us to collaborate. It is the standard for open source communication and collaboration.&lt;/p&gt;
+
+&lt;p&gt;Linus Torvald invented it for a reason. The guys at GitHub have been really doing a great job in enabling this innovative community. That breaks down the barriers between manufacturer, integrator, and customer.&lt;/p&gt;
+
+&lt;h4 id=&quot;set-up-a-irc-channel-in-this-community&quot;&gt;Set up a IRC channel in this community&lt;/h4&gt;
+
+&lt;p&gt;Every day OpenStack, OpenDaylight, my own internal development teams’ use IRC channel’s to collaborate. You can see all my teams up on the public open source channels. Get Cisco channel up there. Make it so it’s integrated with DevNet. It’s not that technically challenge. That’s a huge opportunity.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-you-should-take-away-from-this&quot;&gt;What you should take away from this&lt;/h3&gt;
+
+&lt;p&gt;Fundamentally you need to communicate and collaborate. DevNet should not only be we can be pointed to the software but a tool to encourage that collaboration.&lt;/p&gt;
+
+&lt;p&gt;Make sure that we know very clearly who is maintaining that repo, that there’s someone dedicated to evaluating emerging pull requests. Use us as a tool.&lt;/p&gt;
+
+&lt;p&gt;There are a lot of people that use Cisco gear out there, Cisco routers, phones, servers. There’s a small number of people there that, for many, many years, have been writing code that configures it.&lt;/p&gt;
+
+&lt;p&gt;If you can enable DevNet to be what it can truly become, which is a collaboration point, integrated with the common open source collaboration tools and platforms, GitHub…Maybe I’m dreaming of this day ,when I don’t have to re-factor my code every three years.&lt;/p&gt;
+
+&lt;p&gt;You can really start to create that community. Frankly there are a lot of us that are just waiting for it to happen. I’m looking forward to you creating a conversation and seeing this become what it could be.&lt;/p&gt;
+
+&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://developer.cisco.com&quot;&gt;http://developer.cisco.com&lt;/a&gt; – Cisco DevNet
+&lt;a href=&quot;http://www.github.com/CiscoSystems&quot;&gt;http://www.github.com/CiscoSystems&lt;/a&gt; – Cisco Webex and NOSTG dumping ground for code
+&lt;a href=&quot;http://www.github.com/DATACENTER&quot;&gt;http://www.github.com/DATACENTER&lt;/a&gt; – Nexus 9k / ACI org on GitHub&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://pcottle.github.io/learnGitBranching/&quot;&gt;http://pcottle.github.io/learnGitBranching/&lt;/a&gt; – Learn about GIT&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Feb 2014 00:00:00 -0600</pubDate>
+        <link>http://yourdomain.com/open-letter-to-cisco-about-devnet/</link>
+        <guid isPermaLink="true">http://yourdomain.com/open-letter-to-cisco-about-devnet/</guid>
+        
+        <category>api</category>
+        
+        <category>CISCO</category>
+        
+        <category>devnet</category>
+        
+        <category>nexus 9000</category>
+        
+        <category>python</category>
+        
+        <category>ucsm</category>
+        
+        
+        <category>cisco</category>
+        
+      </item>
+    
+      <item>
+        <title>Are you an OpenStack Active Technical Contributor &amp;#8211; Register for the design summit now</title>
+        <description>&lt;p&gt;Stefano just sent out the registration codes for the spring design summit in Atlanta. If you are like me, you probably went right to the code, clicked the link to the website and wen’t to register with EventBright. The danger is, if you are like me, you might have almost accidentally charged $600 dollars to your credit card.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-you-need-to-click-thanks-stef-for-sending-this-out&quot;&gt;What you need to click (thanks Stef for sending this out)&lt;/h2&gt;
+
+&lt;p&gt;Thanks Stefano for sending this out. Pay close attention to the &lt;strong&gt;&lt;em&gt;ENTER PROMOTIONAL CODE LINK&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; title=&quot;HowToUseCode_AtlantaSummit.png&quot; alt=&quot;HowToUseCode AtlantaSummit&quot; src=&quot;http://www.colinmcnamara.com/wp-content/uploads/2014/01/HowToUseCode_AtlantaSummit.png&quot; width=&quot;500&quot; height=&quot;270&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on that, enter the code you received from Stefano, and profit.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 id=&quot;span-stylefont-size-15emsee-you-in-atlantaspan&quot;&gt;&lt;span style=&quot;font-size: 1.5em;&quot;&gt;See you in Atlanta!&lt;/span&gt;&lt;/h2&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;OpenStack Summit Registration – &lt;a href=&quot;http://openstacksummitmay2014.eventbrite.com/&quot;&gt;http://openstacksummitmay2014.eventbrite.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Room blocks and info – &lt;a href=&quot;http://openstack.org/summit&quot;&gt;openstack.org/summit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Intel Travel Support Program – &lt;a href=&quot;https://wiki.openstack.org/wiki/Travel_Support_Program&quot;&gt;https://wiki.openstack.org/wiki/Travel_Support_Program&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 28 Jan 2014 00:00:00 -0600</pubDate>
+        <link>http://yourdomain.com/are-you-an-openstack-active-technical-contributor-register-for-the-design-summit-now/</link>
+        <guid isPermaLink="true">http://yourdomain.com/are-you-an-openstack-active-technical-contributor-register-for-the-design-summit-now/</guid>
+        
+        <category>openstack</category>
+        
+        
+        <category>devops</category>
+        
+      </item>
+    
+  </channel>
+</rss>
