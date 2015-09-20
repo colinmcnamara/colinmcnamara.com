@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Colin McNamara
+title: About Colin McNamara
 permalink: /about/
 ---
 My current role is Director of the Cloud Practice and Chief Cloud Architect for Nexus IS, a Dimension Data Company. In that role I set technical direction and vision, and implement that vision through matrix’s into the business as well as teams reporting directly to me which include our Software Development teams responsible for SDN, DevOps and OpenStack development.
 
 My primary teams focuses on software development (Mainly SDN and Cloud), and Agile Business Optimization (ITSM/ITIL to AGILE) . This allows the organization function as an  advanced technology research and development arm, effectively driving  business and technology transformation of both Nexus’s Engineering and Sales teams, as well as customers IT and Software Development organizations.
-COMMUNITY AND OPEN SOURCE
+
+##COMMUNITY AND OPEN SOURCE
 
 I have been been involved with Open Source since 1998 when I switched all of my web servers at my former ISP to Linux. Since then I have been involved with, evangelized and/or contributed to many open source projects including Netsaint/Nagios, Cacti, Ubuntu, Golden Cheetah, OpenStack, OpenDaylight and more.
 
