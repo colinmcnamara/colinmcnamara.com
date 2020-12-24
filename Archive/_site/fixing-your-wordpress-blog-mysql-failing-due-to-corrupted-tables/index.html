@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Fixing your WordPress Blog &#8211; MySQL failing due to corrupted tables</title>
+  <meta name="description" content="It is 6am in the morning, and I am fixing my self hosted WordPress blog. All I wanted to do was post a simple note about my first merge into OpenDaylight. In...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.colinmcnamara.com/fixing-your-wordpress-blog-mysql-failing-due-to-corrupted-tables/">
+  <link rel="alternate" type="application/rss+xml" title="DevOps Deciple in an Enterprise World" href="http://www.colinmcnamara.com/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">DevOps Deciple in an Enterprise World</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About Colin McNamara</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Fixing your WordPress Blog &#8211; MySQL failing due to corrupted tables</h1>
+    <p class="post-meta">Dec 30, 2013 • colinmcnamara</p>
+  </header>
+
+  <article class="post-content">
+    <p>It is 6am in the morning, and I am fixing my self hosted WordPress blog. All I wanted to do was post a simple note about my first merge into OpenDaylight. Instead I’m fixing WordPress and MySQL…..</p>
+
+<h2 id="what-do-i-see-this-morning-8211-error-establishing-a-database-connection">What do I see this morning – Error establishing a database connection</h2>
+
+<p>My site keeps going down because the MySQL instance on the backend keeps failing.</p>
+
+<p><img style="display: block; margin-left: auto; margin-right: auto;" title="broke-blog.png" alt="broke blog" src="http://www.colinmcnamara.com/wp-content/uploads/2013/12/broke-blog.png" width="500" height="154" border="0" /></p>
+
+<p>When i log in I check MySQL status, see that it is locked up and restart it to get things working again</p>
+
+<blockquote>
+  <p>[cmcnamara@www2 ~]$ sudo /etc/init.d/mysqld status [sudo] password for cmcnamara:<br />
+mysqld dead but subsys locked<br />
+[cmcnamara@www2 ~]$ sudo /etc/init.d/mysqld restart<br />
+Stopping mysqld: [ OK ]<br />
+Starting mysqld: [ OK ]</p>
+</blockquote>
+
+<p>Why is it failing? Because the cobblers son has no shoes. In real world terms my personal Linux instances aren’t exactly taken care of. Specifically I had a WordPress backup job that ran my system out of space. This caused tables in MySQL to get corrupted, evidenced my tailing /var/log/mysqld.log</p>
+
+<blockquote>
+  <p>[cmcnamara@www2 ~]$ sudo tail -10f /var/log/mysqld.log [sudo] password for cmcnamara: 131230 14:23:54 [ERROR] /usr/libexec/mysqld: Table ‘./wpblog_cmcnamara/securewp_fs_visits’ is marked as crashed and should be repaired 131230 14:23:54 [ERROR] /usr/libexec/mysqld: Table ‘./wpblog_cmcnamara/securewp_fs_visits’ is marked as crashed and should be repaired 131230 14:23:54 [ERROR] /usr/libexec/mysqld: Table ‘./wpblog_cmcnamara/securewp_fs_visits’ is marked as crashed and should be repaired 131230 14:23:54 [ERROR] /usr/libexec/mysqld: Table ‘./wpblog_cmcnamara/securewp_fs_visits’ is marked as crashed and should be repaired 131230 14:23:54 [ERROR] /usr/libexec/mysqld: Table ‘./wpblog_cmcnamara/securewp_fs_visits’ is marked as crashed and should be repaired 131230 14:23:54 [ERROR] /usr/libexec/mysqld: Table ‘./wpblog_cmcnamara/securewp_fs_visits’ is marked as crashed and should be repaired 131230 14:24:29 [ERROR] /usr/libexec/mysqld: Table ‘./openchimpphpbb/phpbb_sessions’ is marked as crashed and should be repaired 131230 14:24:29 [ERROR] /usr/libexec/mysqld: Table ‘./openchimpphpbb/phpbb_sessions’ is marked as crashed and should be repaired 131230 14:25:56 [ERROR] /usr/libexec/mysqld: Table ‘./openchimpphpbb/phpbb_sessions’ is marked as crashed and should be repaired 131230 14:25:56 [ERROR] /usr/libexec/mysqld: Table ‘./openchimpphpbb/phpbb_sessions’ is marked as crashed and should be repaired</p>
+</blockquote>
+
+<h2 id="fixing-the-mysql-crash">Fixing the MySQL crash</h2>
+
+<h3 id="taking-a-snapshot-of-your-system">Taking a snapshot of your system</h3>
+
+<p>Ok, let’s fix this crap. First things first, when working on systems that are non-ephemeral (that have state) I always like to trigger a snapshot. In this case I use RimuHosting for my blog (and a bunch of other blogs). So I am going to log into the console and trigger a snapshot.</p>
+
+<p><img style="display: block; margin-left: auto; margin-right: auto;" title="rimuhosting-backup.png" alt="rimuhosting-backup" src="http://www.colinmcnamara.com/wp-content/uploads/2013/12/rimuhosting-backup.png" width="500" height="335" border="0" /></p>
+
+<p>That takes a couple minutes to run, get some coffee, bang your head into the table, whatever makes you feel good. When it is done,</p>
+
+<h3 id="using-mysqlcheck">Using mysqlcheck</h3>
+
+<p>Now let’s get down to the root of the problem, corrupted MySQL tables. There are a couple ways that you can fix them. Some are super complicated, some are super easy. In this case we are going to check our MySQL database using mysqlcheck —all-databases</p>
+
+<blockquote>
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  [cmcnamara@www2 ~]$ <strong>sudo mysqlcheck &#8211;all-databases</strong>
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  [sudo] password for cmcnamara:
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  actionsoscom.address_book                          OK
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  actionsoscom.address_format                        OK
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  actionsoscom.administrators                        OK
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  …. (removed a bunch of redundant messages —
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  status   : OK
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  <strong>wpblog_cmcnamara.securewp_fs_visits</strong>
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  <strong>warning  : Table is marked as crashed</strong>
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  <strong>warning  : 25 clients are using or haven&#8217;t closed the table properly</strong>
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  <strong>error    : Checksum for key:  2 doesn&#8217;t match checksum for records</strong>
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  <strong>error    : Checksum for key:  4 doesn&#8217;t match checksum for records</strong>
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  <strong>error    : Corrupt</strong>
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  wpblog_cmcnamara.securewp_in_series_3_0_11_auth    OK
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  wpblog_cmcnamara.securewp_in_series_3_0_11_entries OK
+</p>
+</blockquote>
+
+<p>As you can see in the bold items, I have some corrupt tables. What to do?</p>
+
+<ol>
+  <li>You can drop the table if it is from a plugin that you don’t care about.</li>
+  <li>You can fix the table</li>
+</ol>
+
+<p>Let’s fix the table –</p>
+
+<blockquote>
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  [cmcnamara@www2 ~]$ <strong>sudo mysqlcheck &#8211;repair &#8211;all-databases</strong>
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  [sudo] password for cmcnamara:
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  actionsoscom.address_book                          OK
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  actionsoscom.address_format                        OK
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  actionsoscom.administrators                        OK
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  openchimpphpbb.phpbb_search_wordlist               OK
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  <strong>openchimpphpbb.phpbb_search_wordmatch              OK</strong>
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  <strong>openchimpphpbb.phpbb_sessions</strong>
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  <strong>warning  : Number of rows changed from 20137 to 20197</strong>
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  <strong>status   : OK</strong>
+</p>
+</blockquote>
+
+<p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  <strong> </strong>
+</p>
+
+<p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  As you can see, the number of rows in <strong style="font-family: Menlo; font-size: 11px;">openchimpphpbb.phpbb_sessions </strong><span style="font-family: Menlo; font-size: 11px;">changed form 20137 to 20197. and when I run </span>
+</p>
+
+<p style="margin: 0px; font-size: 11px; font-family: Menlo; padding-left: 30px;">
+  sudo mysqlcheck &#8211;all-databases again, everything shows up as ok.
+</p>
+
+<p>Next, I’m going to restart MySQL. This not necessary to repair the DB. However sometimes error’s creep up on restart. It’s best to observe those when you have just made some changes and they are fresh in your mind. So lets restart MySQL and verify everything still works.</p>
+
+<blockquote>
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  [cmcnamara@www2 ~]$ sudo /etc/init.d/mysqld restart
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  Stopping mysqld:                                           [<span style="color: #34bd26;">  OK  </span>]
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  Starting mysqld:                                           [<span style="color: #34bd26;">  OK  </span>]
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+  [cmcnamara@www2 ~]$
+</p>
+
+  <p style="margin: 0px; font-size: 11px; font-family: Menlo;">
+   
+  
+  <h2>
+    WIN!!
+  </h2>
+  
+  <p>
+    There you have it, if your WordPress blog keeps crashing. It may be because of a borked MySQL instance. You can use mysqcheck to check and repair corrupted tables in your database, and get back to blogging.
+  </p>
+  
+  <h2>
+    Resources
+  </h2>
+  
+  <p>
+    MySQL Dev Docs &#8211; <a href="http://dev.mysql.com/doc/refman/5.0/en/rebuilding-tables.html">Rebuilding or Repairing Tables or Indexes</a>
+  </p>
+  
+  <p>
+    RimuHosting &#8211; <a href="http://rimuhosting.com/?r=6053414aa51e6c7a2d97931a7cf85e88">RimuHosting Virtual Servers &#8211; Awesome Sysadmins</a>
+  </p>
+  
+  <p>
+    &nbsp;
+  </p>
+  
+  <p>
+    &nbsp;
+  </p>
+</p>
+</blockquote>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">DevOps Deciple in an Enterprise World</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>DevOps Deciple in an Enterprise World</li>
+          <li><a href="mailto:colin@2cups.com">colin@2cups.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+          <li>
+            <a href="https://twitter.com/colinmcnamara">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">colinmcnamara</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">CCIE #18233, DevOps, OpenStack, Containers, SDN, People, Process, Technology
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

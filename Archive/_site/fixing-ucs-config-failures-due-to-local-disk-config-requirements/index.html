@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Fixing UCS Config Failures due to local disk config requirements</title>
+  <meta name="description" content="Boring title huh? Well, this isn’t what I wanted to be dealing with on a Friday afternoon either. My plan was to set up a PXE boot environment to create scri...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.colinmcnamara.com/fixing-ucs-config-failures-due-to-local-disk-config-requirements/">
+  <link rel="alternate" type="application/rss+xml" title="DevOps Deciple in an Enterprise World" href="http://www.colinmcnamara.com/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">DevOps Deciple in an Enterprise World</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About Colin McNamara</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Fixing UCS Config Failures due to local disk config requirements</h1>
+    <p class="post-meta">Jul 30, 2010 • colinmcnamara</p>
+  </header>
+
+  <article class="post-content">
+    <p>Boring title huh? Well, this isn’t what I wanted to be dealing with on a Friday afternoon either. My plan was to set up a PXE boot environment to create scripted installations of ESXi 4.1 on UCS. However when I shelled into the UCS lab at work, I was made aware of a little bug.</p>
+
+<p><strong>The Problem</strong></p>
+
+<p>Apparently when the UCS pod’s firmware was updated to 1.3(1c) an interesting bug was encountered. What happens is when you associate your service profile to a server which has had another service profile associated with it previously you a config failure error stating that the local disk config you are applying is destructive to the physical server and violates a requirement.</p>
+
+<p>[singlepic id=140 w=420 h=340 float=]</p>
+
+<p>I headed over to the local disk policies section of UCSM to see what was going on. Once I got there I noticed a new check box labeled “Protect Configuration”.</p>
+
+<p>[singlepic id=157 w=420 h=340 float=]</p>
+
+<p>It’s a lab, which means that change controls should be followed but rarely are. Following that mantra and went ahead and unchecked the “Protect Configuration” box on one of the commonly used local disk policies and saved my changed. A little background on HOW I am shelled into this lab. I am shelled in via a VMware View server that has component installed on blades 1 and 2 of this chassis. And, yes the local disk configuration that I made a change to was used by these profiles.</p>
+
+<p>A little while later, after all the servers went through a reboot and settings application cycle and a coworker kicked a View server in the butt I was back in. The first thing I did was try to apply my service profile. I got the same error message.</p>
+
+<p>I went back to the local disk config profile section to see if maybe the change hadn’t applied. But, when I edited the profile, it showed that the local disk config should not be in a protected configuration.</p>
+
+<p>[singlepic id=137 w=420 h=340 float=]</p>
+
+<p>However when I went into a service profile to change the same local disk policy, you will notice that this same local disk config was still showing up as a protected configuration.</p>
+
+<p>[singlepic id=138 w=420 h=340 float=]</p>
+
+<p><strong>The Solution</strong></p>
+
+<p>When you encounter a bug, the first thing you do if the obvious isn’t working is check the release notes. This bug did show up int he 1.3 release notes, with a tag of “no workaround”. I don’t believe in not having workarounds so proceeded to bang my head up against a wall trying time consuming things like rediscovering servers, recovering bios’s, creating custom firmware packs and more.</p>
+
+<p>After all that failed, I tried the simple things (you like the reverse order?). My excuse was that I assumed that TAC who had created the bug had already tried this. I guess I should assume less often…</p>
+
+<p>The simple thing, that I should have done from the start was create a brand new local disk profile. I named this profile FIX-PERSIST-ANY, choosing to use any local disk config and expressly making it non-persistent. I then applied the same local disk policy that was on previously to my service profile, and then once applied changed it to FIX-PERSIST-ANY.</p>
+
+<p>[singlepic id=139 w=420 h=340 float=]</p>
+
+<p>At that point I whatever flag that had gotten stuck in the UCSM database got unstuck and I was able to get my service profile applied.</p>
+
+<p>[singlepic id=142 w=420 h=340 float=]</p>
+
+<p><strong>Moral of the story</strong></p>
+
+<p>Just because a bug shows no workaround, it doesn’t mean you can’t fix it. It just means that the engineer who submitted the bug wasn’t able to.</p>
+
+<p>Now I can finally get around to what I was originally trying to do today, getting scripted PXE installs of ESXi 4.1 working.</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">DevOps Deciple in an Enterprise World</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>DevOps Deciple in an Enterprise World</li>
+          <li><a href="mailto:colin@2cups.com">colin@2cups.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+          <li>
+            <a href="https://twitter.com/colinmcnamara">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">colinmcnamara</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">CCIE #18233, DevOps, OpenStack, Containers, SDN, People, Process, Technology
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

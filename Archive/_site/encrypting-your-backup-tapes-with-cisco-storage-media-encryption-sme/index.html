@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Encrypting your backup tapes with Cisco Storage Media Encryption (SME)</title>
+  <meta name="description" content="  IT staff at the University of Miami are having a very bad week. They are having to deal with the fact that two million private health records were stolen f...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.colinmcnamara.com/encrypting-your-backup-tapes-with-cisco-storage-media-encryption-sme/">
+  <link rel="alternate" type="application/rss+xml" title="DevOps Deciple in an Enterprise World" href="http://www.colinmcnamara.com/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">DevOps Deciple in an Enterprise World</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About Colin McNamara</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Encrypting your backup tapes with Cisco Storage Media Encryption (SME)</h1>
+    <p class="post-meta">May 3, 2008 • colinmcnamara</p>
+  </header>
+
+  <article class="post-content">
+    <p style="text-align: left;">
+  IT staff at the University of Miami are having a <a href="http://www.storagenewsletter.com/news/tapes/university-miami-tapes-stolen" target="_blank">very bad week</a>. They are having to deal with the fact that two million private health records were stolen from from them. While it wasn&#8217;t directly their fault that their backup tapes were stolen from a off site storage providers transport van. The responsibility does fall on their shoulders to protect sensitive data no matter who has access to the physical media.
+</p>
+
+<p><img style="vertical-align: middle;" src="http://www.colinmcnamara.com/wp-content/gallery/breach/istock_000003413901xsmall.jpg" alt="" width="425" height="282" /></p>
+
+<p><strong>Legal implications of a breach</strong></p>
+
+<p>Losing control of personal data means means more then just replacing a tape in your backup rotation. Laws vary from state to state, however generally you are required to contact the identity holders who were breached, as well as fund some sort of remediation. This has huge implications on consumer confidence, and at the end of the day stock price of your company. In some cases, such as ChoicePoint a company can be completely decimated by a breach.</p>
+
+<p><strong>Data protection regulations</strong></p>
+
+<p>There are an ever increasing number of regulations that concern the control of sensitive data. These can vary from laws focused on patient data, to financial data, to personal identification data. The most most well known laws are HIPPA, GLBA, and Sarbanes Oxley (SOX). Past that there are laws that pop up every day at the state and municipality level that further increase the requirements and expense of dealing with a breach. In short, it is becoming an expensive and in some cases criminal offense to lose control of your sensitive.</p>
+
+<p><strong>What you can do to protect your backup tapes</strong></p>
+
+<p>First things first, putting a lock on that Iron Mountain box is just not good enough. You must assume that no matter what, a determined attacker will get physical access to your tapes. So many times companies thing that just because their data format is unique or proprietary that an attacker won’t be able to access it. The cold reality is that any format can be read, and yours is not that special.</p>
+
+<p>The only way to be assured that your data is safe is to encrypt it with a complex cipher. In short, you need to treat your data the same way on tape as you would if it was sitting on a public ftp site (with anonymous access enabled). Luckily Cisco has a technology that allows you to encrypt and decrypt your data coming on and off tape. This technology is storage media encryption.</p>
+
+<p><strong>Cisco Storage Media Encryption (SME)</strong></p>
+
+<p>Cisco’s Storage Media Encryption (SME) technology allows for the seamless encryption of your data flows on and off your backup tapes using AES256 standard encryption. Whether you have VSANS segregating your data, a core / edge architecture, or Virtual Tape Libraries (VTL), you can use SME to protect your data at rest, removing the possibility of an attacker getting access to your critical data.<a href="http://www.cisco.com/en/US/products/ps8502/index.html" target="_blank"><br /> </a></p>
+
+<p><a href="http://www.cisco.com/en/US/products/ps8502/index.html" target="_blank">Storage Media Encryption</a> works by leveraging a multifunction chipset available in the <a title="18/4 module" href="http://www.cisco.com/en/US/products/ps8425/index.html" target="_blank">18/4 module</a> that comes default with the 9222i and is an option for the 9500 series director class SAN switches. Chipset has a couple functions, including line rate encryption of iSCSI and FCIP data streams at gigabit speeds, as well as line rate encryption of data as it streams your tape or virtual tape library’s (VTL).</p>
+
+<p><strong>Want to learn more ?</strong></p>
+
+<p><a title="SAN and NAS" href="http://www.amazon.com/gp/product/0596001533?ie=UTF8&amp;tag=wwwcolinmcnam-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596001533" target="_blank">SAN and NAS, Oreilly Press</a> – In the classic Oreilly style by W. Curtis Preston, this book is a great starting place to understanding the fundamentals of San and Nas architectures that many people are likely to face.</p>
+
+<p>Storage Media Encryption for Cisco MDS SAN Switches – <a href="http://www.cisco.com/en/US/products/ps8502/index.html" target="_blank">http://www.cisco.com/en/US/products/ps8502/index.html</a> . Cisco has lumped together a couple good data sheets here, though I may have to write a future article taking a deap dive on what really drives SME.</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">DevOps Deciple in an Enterprise World</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>DevOps Deciple in an Enterprise World</li>
+          <li><a href="mailto:colin@2cups.com">colin@2cups.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+          <li>
+            <a href="https://twitter.com/colinmcnamara">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">colinmcnamara</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">CCIE #18233, DevOps, OpenStack, Containers, SDN, People, Process, Technology
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

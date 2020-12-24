@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Cisco&#8217;s Cloud Computing Offering</title>
+  <meta name="description" content="Right now Cloud Computing is either the biggest threat that Cisco Systems has ever faced, or the biggest opportunity that Cisco has ever been presented with....">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.colinmcnamara.com/ciscos-cloud-computing-offering/">
+  <link rel="alternate" type="application/rss+xml" title="DevOps Deciple in an Enterprise World" href="http://www.colinmcnamara.com/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">DevOps Deciple in an Enterprise World</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About Colin McNamara</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Cisco&#8217;s Cloud Computing Offering</h1>
+    <p class="post-meta">Apr 7, 2009 • colinmcnamara</p>
+  </header>
+
+  <article class="post-content">
+    <p>Right now Cloud Computing is either the biggest threat that Cisco Systems has ever faced, or the biggest opportunity that Cisco has ever been presented with.</p>
+
+<p>Why do I say that? It is simple, every server that moves from a corporate data center into a cloud provider is a switchport and fibre channel port (and now server) that is not purchased from Cisco. More so, each system that is moved into the cloud hurts secondary sales of security and content switching products.</p>
+
+<p><span style="font-size: medium;"><strong>The promise of enterprise cloud computing<br /> </strong></span></p>
+
+<p><span style="font-size: medium;"><strong></strong></span>The ability to dynamically scale enterprise compute workloads while only running a “right sized” private infrastructure is top of every CIO’s mind. This is the promise of cloud computing in the enterprise space. However, right now most cloud offerings are too new, and lack the critical integrations with VMware or XenSource (the two most common enterprise virtualization platforms) to make a serious dent in Cisco’s revenue stream. But fast forward 12 to 16 months and the kinks will be worked out. Projects that would previously have required new capital infrastructure will be restructured to use cloud providers as an operational expense. This will present a real threat to Cisco’s revenue moving forward.</p>
+
+<p>John Chambers and his team of technologist are not new to this game, this is not the first threat to Cisco’s sales model. And I am sure that it won’t be the last. So if I was in their shoes, what would I do? (and more specifically, what do I think <em>they</em> are doing)</p>
+
+<p><span style="font-size: medium;"><strong>Create a compute platform that can power the cloud at a much lower cost that my competitors</strong></span></p>
+
+<p>Cisco publicly announced their computing offering, the Unified Computing System in March of this year. The promise of the UCS is to minimize power, cooling, capital costs and management overhead of data center compute. Looking at this new product line from an enterprise sales perspective it makes sence. For Cisco to continue with their growth plans they had to choose to enter the Compute or Storage markets, with the compute (server) market being the logical step.</p>
+
+<p>While the Unified Computing System is well placed as an enterprise computing platform, I think there is a larger goal in mind. The large goal is to make a platform that can be shared by Cisco’s largest enterprise clients in their emerging private clouds, as well as by Cisco itself for it’s own cloud offering. By producing their own servers, with technology that Cisco alone has access too (memory expansion / hypervisor bypass) Cisco sets themselves up to have both lower hardware costs in their own cloud, as well as lower operational costs (power/cooling). This will provide Cisco with higher margin at the same price point as their competitors.</p>
+
+<p><span style="font-size: medium;"><strong>Distribute application aware network devices at customer locations</strong></span></p>
+
+<p>Cisco already has a significant edge over any competitive cloud offering. A vast majority of enterprise customers already run Cisco routers, switches and firewalls. If Cisco decided to say, port the TCP optimization code from their WAN acceleration platform into IOS, and configure it to work with their own cloud offerings this would give them an immediate leg up on the competition. Combine this with the existing WAAS auto discovery and Cisco could conceivably automatically integrate a cloud based caching offering with a customer’s onsite devices.</p>
+
+<p><span style="font-size: medium;"><strong>Create an application centric cloud security model that can be integrated with virtualization platforms</strong></span></p>
+
+<p>Last year Cisco announced a new approach to security called Cisco TrustSec. This technology includes a change from layer 4 based acl’s to an application focused role based implementation. This is applicable in the cloud environment because it provides a standard integration for controlling the access to and mobility of applications as they travel between public and private clouds.</p>
+
+<p>An interesting side bar, is the fact that when integrating public and private clouds, there will always be applications that you want to keep on your internal cloud. The easiest way to do this is to put some sort of meta information on the virtual server containing a flag that this server should only run on the private cloud. With VMware there are fields that are used for DRS that can house just such data. I would not be surprised that with all the work that Cisco and VMware have been doing together if this was not implemented with vSphere (Virtual Infrastructure 4).</p>
+
+<p><span style="font-size: medium;"><strong>Learn as an organization how to profit from a SaaS model</strong></span></p>
+
+<p>I think this last piece of the puzzle has been overlooked by many people. Cisco already has in house experience dealing with a massive Software as a Service (SaaS) offering – Cisco WebEx. In acquiring WebEx Cisco also acquired the talent and technology behind the worlds largest collaboration platform. Cisco should be able to take the lessons learned from running and improving this platform, and apply them to their upcoming cloud offering.</p>
+
+<p><span style="font-size: medium;"><strong>Summary</strong></span></p>
+
+<p>Cisco has to go to market with a Cloud offering to maintain long term viability as a company. When they do they will have the benefit of lower cost of building and operating the grids that their cloud offering will run on. They will be able to leverage millions of Cisco network devices in their current install base as well as provide application centric security integrated with these same devices. And most importantly they will be able to use the lessons learned from running WebEx to ensure flawless delivery of an upcoming cloud computing offering.</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">DevOps Deciple in an Enterprise World</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>DevOps Deciple in an Enterprise World</li>
+          <li><a href="mailto:colin@2cups.com">colin@2cups.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+          <li>
+            <a href="https://twitter.com/colinmcnamara">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">colinmcnamara</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">CCIE #18233, DevOps, OpenStack, Containers, SDN, People, Process, Technology
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

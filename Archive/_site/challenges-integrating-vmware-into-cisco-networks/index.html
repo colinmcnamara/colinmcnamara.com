@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Challenges integrating VMware into Cisco networks</title>
+  <meta name="description" content="UPDATE – for those looking for the [Nexus 1000v release, check out this post ][1]">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.colinmcnamara.com/challenges-integrating-vmware-into-cisco-networks/">
+  <link rel="alternate" type="application/rss+xml" title="DevOps Deciple in an Enterprise World" href="http://www.colinmcnamara.com/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">DevOps Deciple in an Enterprise World</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About Colin McNamara</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Challenges integrating VMware into Cisco networks</h1>
+    <p class="post-meta">Mar 15, 2008 • colinmcnamara</p>
+  </header>
+
+  <article class="post-content">
+    <p><strong>UPDATE – for those looking for the <a href="http://www.colinmcnamara.com/2008/09/16/cisco-releases-nexus-1000v-virtual-switch-for-vmware">Nexus 1000v release, check out this post </a></strong></p>
+
+<p>In the past couple years, VMware has changed from a product hidden in development and testing environments to a full fledged enterprise computing platform. It brings many benefits to the companies that implement it, however with those benefits come changes to the access layer of your data center. Your access layer is no longer a top of rack Cisco switch, or end of row aggregation chassis. It is now a virtual bridge that exists logically within your VMware ESX server.</p>
+
+<p><a href="http://www.colinmcnamara.com/wp-content/gallery/cisco-vmware/vmware-overview-white-background.jpg" title="vmware-overview-white-background.jpg"><img src="http://www.colinmcnamara.com/wp-content/gallery/cisco-vmware/vmware-overview-white-background.jpg" alt="vmware-overview-white-background.jpg" width="350" height="451" align="absmiddle" /></a>{.thickbox}</p>
+
+<p>This causes an interesting question to come up in many customers – Who is responsible for the configuration and maintenance of this Vswitch? At first glance most groups reference the port on the last Cisco switch as the division of responsibility between network operations and systems operations. This has worked well in the past for a three main reasons.</p>
+
+<p>First, it divided responsibilities based on technical skillset. For example a network engineer understands spanning tree, trunking, routing protocols, firewalling. While a systems engineer understands file systems, databases and Linux and Windows operating systems.</p>
+
+<p>Second, it provided for a interconnection point where standardized configurations could be applied by an operational group, versus complicated configurations that could impact overall network designs and require an architectural board review.</p>
+
+<p>Third it provided for a clean hand off for troubleshooting. Both network and systems operations could agree on layer 2-4 functionality in an area that provided for detailed debugging on both sides.</p>
+
+<p><strong>Lack of a defined access layer</strong></p>
+
+<p>VMware ESX throws a wrench in this model. We no longer have this well defined edge at the access layer. The access layer now exists virtually inside a server. More specifically, it is a logical devices running in a Linux server. This presents a challenge because it requires cross over knowledge. Whoever is responsible for this integration has to be fluent in Linux systems administration , and also fluent in network design and operations. Frankly this is a rare skill set to come across, as it requires and engineer who has attained high proficiency in both systems and network engineering.</p>
+
+<p>I see this fuzzy line of demarcation often as a failing point for many VMware integrations. Many times I see network operations teams not involved in ESX cluster design because its a “server” , and systems operations teams generally don’t have the networking skills necessary to design and implement an fully functional system.. The solution to this problem is education and collaboration.</p>
+
+<p><a href="http://www.colinmcnamara.com/wp-content/gallery/cisco-vmware/istock_000005344985xsmall.jpg" title="team-collaborating-cisco-vmware.jpg"><img src="http://www.colinmcnamara.com/wp-content/gallery/cisco-vmware/istock_000005344985xsmall.jpg" alt="istock_000005344985xsmall.jpg" title="team-collaborating-cisco-vmware.jpg" /></a>{.thickbox}</p>
+
+<p><strong>The need for collaborative design sessions</strong></p>
+
+<p>The single most powerful element in a successful VMware integration is the creation of strong design documents. These are created by holding planning sessions where both your systems and networking leads hash out a strong design that takes both short and long term virtualization and network goals into account. Also, many times when people hear the word design, they think it is a high level Visio and a bill of materials. That is a just a fraction of the effort required. A proper design should cover everything from a 10,000 foot overview Visio down to protocol flow diagrams and configuration examples. By created a detailed design like this it is likely to bring up common issues such as 10 gig aggregation, trunking, VMotion security, layer two adjacency and layer 7 network service delivery on a white board instead of a production environment.</p>
+
+<p>To create this detailed design, both your Network and Systems leads have to understand this product. VMware recognizes this is critical to successful implementation (and to further sales of their product) an offers the <a href="http://mylearn1.vmware.com/portals/certification/" target="_blank">VMware Certified Professional certification</a>. If you have the resources, I would recommend sending both your network and systems leads to this training at the same time. Having them attend training together allows them to leverage each others strengths and bring up questions specific to their network and their goals.</p>
+
+<p>A real world example of this is the company I work for, Eplus. Last April forty of us, all senior engineers attended VMware Certified Professional training at the same time. The class was mixed up so there was an even distribution of CCIE’s, Systems Experts, and Storage Experts. Needless to say this presented our instructors with some extremely challenging questions, but more importantly it set the stage and created a venue for collaboration between these different practices within our own company.</p>
+
+<p><strong>Real world benefits</strong></p>
+
+<p>A great example of this model’s success this occurred last month. Rick and I were sitting in the engineering side of our Sunnyvale office, catching up on email after giving presentations at Cisco that morning and afternoon. In the bullpen behind us, one of the Microsoft architects was engrossed in a troubleshooting call with a large customer on the other line. It turns out a large systems vendor (who shall remain nameless) had been trying for a week to integrate the first ESX cluster into this network and just could not get the networking portion to work correctly. Our account manager received the call from a the customer, and asked the technical teams to step in to see if we could help out in any way.</p>
+
+<p>The systems engineers were able to isolate the problem down to the network interconnections, but needed to bring in networking resources to resolve the problem. Rick and I were waved over and were given an overview of the problem and introduced us to the customer the far side of the call. We asked a few questions about the physical and logical architecture of their network and created a diagram of their network on the whiteboard. With this we were able to ask them to execute commands continuously isolating the problem domain until we found and resolved the issue.</p>
+
+<p>Seven minutes had passed from the point Rick and I were waved over to the point the customer had a working installation. This allowed the customer to focus on moving their business forward instead of fixing a failed implementation. Three of us on the call had attended VMware Certified Professional training together. We had spent at a minimum 50 hours each creating a baseline of understanding in class, as well as many discussions in engineering meetings. The solution came in seven minutes not because of any one teams individual strengths, but because of collaboration. The systems engineers were able to isolate the problem domain very specifically. And as network engineers trained on VMware were able to quickly understand and digest the issues, and tie it together with our larger understanding of networks as a whole. Only at that point, when the team was able to leverage each others strengths were we able to address the problem so quickly.</p>
+
+<p><a href="http://www.colinmcnamara.com/wp-content/gallery/cisco-vmware/istock_000004877664xsmall.jpg" title="istock_000004877664xsmall.jpg"><img src="http://www.colinmcnamara.com/wp-content/gallery/cisco-vmware/istock_000004877664xsmall.jpg" alt="istock_000004877664xsmall.jpg" title="istock_000004877664xsmall.jpg" /></a>{.thickbox}</p>
+
+<p>There will come a point in the next few years where this fuzzy boundary between the “network” and the “server” is established again. My call is that this will coincide with Cisco finishing development of their Vswitch that will reside inside the ESX server. This switch will require both Cisco and VMware improve their design and integration guides for ESX which are both frankly lacking substance. Until those detailed architecture, integration and troubleshooting guides exist the key to successful ESX cluster implementation will be a strong cross trained systems and network teams that are collaborating on the next level of virtual network design in your enterprise.</p>
+
+<p><strong>Want to learn more?</strong></p>
+
+<p><a href="http://www.cisco.com/univercd/cc/td/doc/solution/vmware.pdf" target="_blank">Cisco – Integrating Virtual Machines Into Cisco Data Center Architecture</a></p>
+
+<p>This is Cisco’s main design guide regarding the integration of virtual machines. You can use it as a decent high level overview if you are a network engineer who is curious how VMware ESX, or Xen servers for that matter will fit into your network.</p>
+
+<p><a href="http://www.vmware.com/files/pdf/virtual_networking_concepts.pdf" target="_blank">VMware – Virtual networking Concepts</a></p>
+
+<p>This VMware document goes between high level overviews and detailed descriptions. It is a decent resource for a network engineer, and provides an overview of ESX network features, however it misses the target for providing configuration examples.</p>
+
+<p><a href="http://blog.scottlowe.org/" target="_blank">Blog of Scott Lowe – Technical Lead for Virtualization at Eplus Technology</a></p>
+
+<p>Scott is an engineer that works with me at Eplus Technology. He is based out of the east coast and covers servers, storage and virtualization. His blog is chock full of good of information. A recent post of interest was how to <a href="http://blog.scottlowe.org/2008/03/11/identifying-esx-server-nics-in-blades/" target="_blank">enable Cisco Discovery Protocol (CDP) on VMware ESX server network interface cards</a>.</p>
+
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">DevOps Deciple in an Enterprise World</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>DevOps Deciple in an Enterprise World</li>
+          <li><a href="mailto:colin@2cups.com">colin@2cups.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+          <li>
+            <a href="https://twitter.com/colinmcnamara">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">colinmcnamara</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">CCIE #18233, DevOps, OpenStack, Containers, SDN, People, Process, Technology
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

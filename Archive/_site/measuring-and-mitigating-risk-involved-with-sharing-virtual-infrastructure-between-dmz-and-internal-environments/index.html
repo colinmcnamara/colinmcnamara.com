@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Measuring and mitigating risk involved with sharing virtual infrastructure between DMZ and Internal environments</title>
+  <meta name="description" content="Ivan Pepelnjak over at IOS Hints and Tricks wrote a post about DMZ VLAN leaking that got me thinking.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.colinmcnamara.com/measuring-and-mitigating-risk-involved-with-sharing-virtual-infrastructure-between-dmz-and-internal-environments/">
+  <link rel="alternate" type="application/rss+xml" title="DevOps Deciple in an Enterprise World" href="http://www.colinmcnamara.com/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">DevOps Deciple in an Enterprise World</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About Colin McNamara</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Measuring and mitigating risk involved with sharing virtual infrastructure between DMZ and Internal environments</h1>
+    <p class="post-meta">Sep 9, 2008 • colinmcnamara</p>
+  </header>
+
+  <article class="post-content">
+    <p>Ivan Pepelnjak over at <a href="http://blog.ioshints.info/2008/09/are-vlans-safe-in-dmz-environment.html" target="_blank">IOS Hints and Tricks </a>wrote a post about DMZ VLAN leaking that got me thinking.</p>
+
+<p>He writes about “the VLAN leaking myth” and how it encourages clients to utilize physically separate network infrastructure in the DMZ’s. Now first things first, I wouldn’t call VLAN leaking a myth. At one time it was a very real and serious vulnerability that was exploited by overflowing the capacity of the switch you were attacking, and causing it to “downgrade” from switch to a hub. Once this happened you now had access to previously protected devices, as well as having the ability to sniff data as it passed through the shared hub backplane.</p>
+
+<p>As he mentions though, this is 8 years ago. Most switches have evolved to the point where backplanes far exceed the traffic that could ever be injected into their switchports. Even beyond backplane enhancements there are many ways to further firm up your security stance – Virtual Device Contexts, not using Layer 3 SVI’s on a DMZ VLAN, utilizing PVLANs, using port security, virtual routing instances, and many more. Of course, there are still many other attack vectors that still remain, but can be mitigated by utilizing features built into the majority of enterprise switches available today.</p>
+
+<p>I think the real question is not “are VLANs safe in a DMZ”. The important question is have you mitigated the probability of compromise (the actual threat) to levels that are acceptable to your business. This question remains whether you have a standalone switch or not. So many times we hear about risk risk and more risk. But risk alone is meaningless in a business context. What is important is combining risk with likelihood. For that I like to use a simple table to come up with the true threat.</p>
+
+<p><a href="http://www.colinmcnamara.com/wp-content/gallery/breach/risk_grid.gif"><img class="ngg-singlepic ngg-center" src="http://www.colinmcnamara.com/wp-content/gallery/breach/thumbs/thumbs_risk_grid.gif" alt="risk_grid.gif" /></a>{.thickbox}</p>
+
+<p>For example, as I drive to Fry’s there is the risk of me dying due to a car crash. The impact of me dying is very high (risk) however the likelihood of an accident is low, and furthermore I reduce (mitigate) the latent risk (threat) by wearing my seat belt. So all in all the threat of me dying on my way to Fry’s is pretty darn low.</p>
+
+<p>In a business context this may be that I have public facing web servers and network devices in my DMZ. The impact of them being compromised is that my public image may be tarnished for a short time, and my end users may lose productivity if they are not able to VPN into work, or access the Internet while on premise. I mitigate this risk by using firewalls and both host and network based Intrusion Prevention Systems as well as implementing best security practices on my network and systems devices. The latent risk (threat) remaining is at a level that is acceptable to the business leaders, so the system is allowed.</p>
+
+<p>One question that I have seen coming up more often as we move towards fully virtualized data centers is centered around commingling of virtual infrastructure. There are some hard questions which challenge some practices that we have held true over the years.</p>
+
+<ul>
+  <li>Should you allow sharing of physical memory on a host virtual machine between an internal and DMZ server?</li>
+  <li>Should you allow virtual infrastructure from multiple security zones to share a storage array or cluster of arrays?</li>
+  <li>Should you allow multiple virtual switches in different security zones commingling on the same ESX or Hyper-V cluster?</li>
+  <li>Should you allow virtual firewall and load balancing instances protecting internal and external zones to reside on the same hardware?</li>
+  <li>Should you allow virtual routing instances from multiple zones to share a physical infrastructure?</li>
+</ul>
+
+<p>In the past world of standalone systems, the additional cost of providing a wholly separate infrastructure for DMZ environments was relatively low. Each system generally had internal disk, or at most direct attached storage. Network devices themselves were scaled down to support one chassis one function. This fit quite neatly into the Enterprise Composite Network model that was quite common from 1999-2003.</p>
+
+<p>Now, many data centers have moved to the Service Oriented Network Architecture (SONA). In this model the cost of a virtualized data center is primarily focused on foundation elements such as the virtual storage and virtual fabrics, virtualized network, and virtual systems elements. The cost of providing additional virtualized services off these elements is low, however the cost of duplicating the physical infrastructure is quite high on both the capital and operational levels. This is forcing the technical and executive leadership at many companies to take a long hard look at the true threats they are facing in previously physically separate security zones such as DMZ’s, Financial and other secure zones. In the end, they are having to decide whether the threat remaining after their security controls is worth duplicating hundreds of thousands of dollars worth of infrastructure or not.</p>
+
+<p>These are hard questions, with really no single good answer. My gut feel is that over the next few years we will continue the move towards the fully virtualized data center where components such as memory, PCI-X buses, storage and network devices are even further decentralized. This will make the cost of duplicating the infrastructure more and more significant, causing consolidated data center (or compute) fabrics to be the norm. At this point the discussion will move away from securing zones by creating separate infrastructure, to providing end to end security, starting integrated application level security, maybe with TrustSec or a dirivative, all the way down to securing the data at rest on disk. For the time being however, the best we can do is sit down and do an honest appraisel of our security stances, mitigate what we can, and do our best to design data center architectures that provide the flexibility of implementing whatever choice the technical and business leaders agree on.</p>
+
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">DevOps Deciple in an Enterprise World</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>DevOps Deciple in an Enterprise World</li>
+          <li><a href="mailto:colin@2cups.com">colin@2cups.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+          <li>
+            <a href="https://twitter.com/colinmcnamara">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">colinmcnamara</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">CCIE #18233, DevOps, OpenStack, Containers, SDN, People, Process, Technology
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

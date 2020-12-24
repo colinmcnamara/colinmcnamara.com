@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Open letter to Cisco about DevNet</title>
+  <meta name="description" content="What I wanted to do today is, show you some of the challenges, My teams and I are having interacting with DevNet.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.colinmcnamara.com/open-letter-to-cisco-about-devnet/">
+  <link rel="alternate" type="application/rss+xml" title="DevOps Deciple in an Enterprise World" href="http://www.colinmcnamara.com/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">DevOps Deciple in an Enterprise World</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About Colin McNamara</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Open letter to Cisco about DevNet</h1>
+    <p class="post-meta">Feb 11, 2014 • colinmcnamara</p>
+  </header>
+
+  <article class="post-content">
+    <p>What I wanted to do today is, show you some of the challenges, My teams and I are having interacting with DevNet.</p>
+
+<p>This is the developer portal, that you guys put up. To help ease teams like mine and find access to API documentation, software development tool kits, and both closed and open source code.</p>
+
+<h3 id="my-perspective">My perspective</h3>
+
+<p>I’m a CCIE. I have automated and some large data centers using a wide range of API’s. I’m not a great programmer, luckily I hire people who are. My software development teams and I are building our own application stacks.</p>
+
+<p>They run and put on Amazon right now. Our goal is to make sure that they easily and automatically deploy onto UCS platforms. And Nexus 9000’s, 5000’s, 7000’s with cool open source projects like OpenStack and OpenDaylight get integrated with them.</p>
+
+<h3 id="feedback-8211-devnet-is-impossible-to-use">Feedback – DevNet is impossible to use</h3>
+
+<p><img style="display: block; margin-left: auto; margin-right: auto;" title="CiscoDevnet.png" alt="Cisco Devnet" src="http://www.colinmcnamara.com/wp-content/uploads/2014/02/CiscoDevnet.png" width="500" height="250" border="0" /></p>
+
+<p>I’m going to tell you something, that’s probably really hard to hear. It is near impossible, to use DevNet to find information that we need to be able to achieve our goal. I think that’s your goal, helping guys like us integrate our software with gear like yours.</p>
+
+<h3 id="example-8211-finding-sdk8217s-and-api-docs">Example – Finding SDK’s and API Docs</h3>
+
+<p>The first thing, a really easy example, a basic thing that you’d want to do or that you’d want a developer to help a team be able to accomplish, is find SDK, find API documentation, and find software development tool kit. To allow us to hook into your gear.</p>
+
+<p>However when me or anyone from my teams attempt to navigate to through devnet to find API / SDK’s the default is to pop us to a product page that has nothing to do with software development.</p>
+
+<p>Instead of having my first and easiest navigation option go to the software that I’ve already made the decision to go ahead and integrate, I get sent to a product page that is trying to influence me to buy a server.</p>
+
+<p>I’m looking for the information of, how I can integrate it. Why another product pitch? It makes no sense, absolutely no sense.</p>
+
+<h3 id="the-hardware-is-not-important-the-api-and-sdk8217s-are">The hardware is not important, the API and SDK’s are</h3>
+
+<p><img style="display: block; margin-left: auto; margin-right: auto;" title="insieme-ifc-code.png" alt="insieme ifc code " src="http://www.colinmcnamara.com/wp-content/uploads/2014/02/insieme-ifc-code.png" width="500" height="230" border="0" /></p>
+
+<p>I don’t care what hardware data sheets there are. It’s not important. I’m looking at programmatically integrated to my system.</p>
+
+<p>Sorry if that’s very aggressive, but this is really, really frustrating. This feedback as I bring new developers into my team, they get me too. “You told me to integrate this stuff, but where is this stuff?” First question, where’s my SDK?</p>
+
+<p>Normally what would happen, is I would go open up my local git clone and do a get/pull (this is a linked clone of a source code repository owned / hosted somwhere else). If found the SDK before, I normally wouldn’t navigate to a site to see an update. I would have that repo integrated not only with my my local dev setup, but it would also be integrated into any tooling that I have. (Listed as a dependency, and auto built by Jenkins)</p>
+
+<h3 id="an-example-of-what-to-do-8211-insieme-and-webex-on-github">An example of what to do – Insieme and Webex on Github</h3>
+
+<p>One place that I love to go is http://www.github.com/CiscoSystem. This place is where the the WebEx team and some of the guys from, NOSTG push a lot of information. Kyle and Mark put a lot of stuff here too on GitHub. This is a place where developers collaborate.</p>
+
+<p>This allows me, as someone who is integrating applications on their stuff to go ahead and, not only through a web page, go ahead and see some interesting stuff.</p>
+
+<p>Very specifically, a great example, the Insieme team. Mike, an awesome guy on that team, has posted some interesting SDK’s information for the Nexus 5000.</p>
+
+<p>It’s easy for me to find. I could Google it. I could search for it on GitHub. I can do a lot of cool things, things that are important to me, in my software development work flow.</p>
+
+<h3 id="nexus-9k-api-docs-on-github">Nexus 9k API docs on Github</h3>
+
+<p>In this example I talk about Mike Cohen’s code for Nexus 9K. This is how it should be done. Example –</p>
+
+<p>Over the years I’ve had to hack these stupid expect scripts and interactions with NetConf to do shut/no shuts and do network testing. You get 1,000, 2,000 nodes, and with four links each you’re going to have transceiver failure and cable failures all over the place.</p>
+
+<p>You end up writing these scripts, to go ahead and exercise the network and start tests on either end. One, it takes forever. Two, it’s a giant pain in the rear, especially when you have to diverse platforms.</p>
+
+<p>I was poking around, and I see, “Oh, wow, someone wrote some interesting code, which, if you look at it, goes in and provides a link test.” This is really, really cool. This is code that I can use. I can integrate it into my own stuff, my own operational procedures. Not so bad.</p>
+
+<h3 id="use-of-developer-toolchains-for-collaboration">Use of Developer Toolchains for collaboration</h3>
+
+<p>As a developer, Git provides a set of the tools that are used to track, communicate and collaborate. We use this to answer questions like – “who the heck wrote this?” The first thing we would do was go ahead and check the log.</p>
+
+<ul>
+  <li>Who wrote this stuff? OK, I see Mike Cohen. I’ve got his email address.</li>
+  <li>I can even go so far as to see when he did it. OK, that was at the end of December, December 19th.</li>
+  <li>I can see exactly what was added each day. Now there’s a log for the entire repository, Mike from Nexus repository.</li>
+  <li>I can see that there’s another developer who was contributing early on to the repository.</li>
+  <li>I can see that if I need to get clarity or have a question about utilization of this code, I can ping Mike Cohen.</li>
+</ul>
+
+<h3 id="collaborating-on-code-via-pull-requests">Collaborating on code via Pull Requests</h3>
+
+<p>Say I improve the code. I find something unique and novel that I can use in my own networks, but I’m not in the business of maintaining a small patch to this.</p>
+
+<p>I can go ahead and make my patch. Then I can submit a pull request back to Mike. Mike just gets an email that says, “Hey, please merge this. I found this useful. Inspect the code, test it, validate it. If it’s good, merge it.”</p>
+
+<p>That makes it something that all the community can use. I’m not in the business of maintaining these minor patches. They distract from the effectiveness of me and my team. I want to be able to submit that.</p>
+
+<h3 id="my-experience-trying-to-do-this-with-the-ucs-sdk-on-communities">My experience trying to do this with the UCS SDK on Communities</h3>
+
+<p>I downloaded it from some community’s page. I don’t know who wrote it. I don’t know who to contact. I can extend it. I can keep that private. It’s a top down community. It doesn’t support the community development, that’s been really key to the growth of open source.</p>
+
+<h3 id="collaboration-between-manufacturer-integrator-and-customer-in-opensource">Collaboration between Manufacturer, Integrator and Customer in OpenSource</h3>
+
+<p>We saw a move of Open Source projects from SourceForge to GitHub. It’s been real. GitHub has allowed this interaction between us that’s key to our development collaboration on OpenStack and OpenDaylight, SDN controller.</p>
+
+<p>My team is one use case. Our company is not huge, but not small. We do about a half billion in revenues, but we’re big enough that we’ve been contributing for OpenStack for two years now and OpenDaylight since mid 2013.</p>
+
+<p>We can push code back. We can contribute into the community. Where we find things that support an unfair advantage market, a new secret sauce, things that support it, we can share the burden, we can be good stewards.</p>
+
+<p>We collaborate with Cisco, with Red Hat, with IBM, with HP in the open domain. What I’m pointing out here is there is no method enabled within DevNet to support that collaboration.</p>
+
+<h3 id="cisco-devnet-needs-to-support-that-collaboration">Cisco DevNet needs to support that collaboration</h3>
+
+<p>There’s a huge opportunity to do that. I’m hoping you take that chance. It’s not about tools. It’s about the back-end. It’s about the collaboration in the community.</p>
+
+<h3 id="my-recommendations">My Recommendations</h3>
+
+<h4 id="don8217t-point-me-to-product">Don’t point me to product.</h4>
+
+<p>If I’m already looking for software integration information, I have made my purchasing decision. Shoving product in my face just gets in the way of my job.</p>
+
+<p>If I’m so frustrated where I can’t find the API documentation and, very specifically, SDK’s, as a developer. I’m going to go to the competition and try to find theirs. It’s all about the software integration, not the tin can that we wrap a CPU in. We call that a server, right?</p>
+
+<h4 id="please-please-consolidate-information-onto-github">Please, please consolidate information onto GitHub</h4>
+
+<p>In the open source domain right now it’s not only where we collaborate, but it’s a tool chain that allows us to collaborate. It is the standard for open source communication and collaboration.</p>
+
+<p>Linus Torvald invented it for a reason. The guys at GitHub have been really doing a great job in enabling this innovative community. That breaks down the barriers between manufacturer, integrator, and customer.</p>
+
+<h4 id="set-up-a-irc-channel-in-this-community">Set up a IRC channel in this community</h4>
+
+<p>Every day OpenStack, OpenDaylight, my own internal development teams’ use IRC channel’s to collaborate. You can see all my teams up on the public open source channels. Get Cisco channel up there. Make it so it’s integrated with DevNet. It’s not that technically challenge. That’s a huge opportunity.</p>
+
+<h3 id="what-you-should-take-away-from-this">What you should take away from this</h3>
+
+<p>Fundamentally you need to communicate and collaborate. DevNet should not only be we can be pointed to the software but a tool to encourage that collaboration.</p>
+
+<p>Make sure that we know very clearly who is maintaining that repo, that there’s someone dedicated to evaluating emerging pull requests. Use us as a tool.</p>
+
+<p>There are a lot of people that use Cisco gear out there, Cisco routers, phones, servers. There’s a small number of people there that, for many, many years, have been writing code that configures it.</p>
+
+<p>If you can enable DevNet to be what it can truly become, which is a collaboration point, integrated with the common open source collaboration tools and platforms, GitHub…Maybe I’m dreaming of this day ,when I don’t have to re-factor my code every three years.</p>
+
+<p>You can really start to create that community. Frankly there are a lot of us that are just waiting for it to happen. I’m looking forward to you creating a conversation and seeing this become what it could be.</p>
+
+<h3 id="resources">Resources</h3>
+
+<p><a href="http://developer.cisco.com">http://developer.cisco.com</a> – Cisco DevNet
+<a href="http://www.github.com/CiscoSystems">http://www.github.com/CiscoSystems</a> – Cisco Webex and NOSTG dumping ground for code
+<a href="http://www.github.com/DATACENTER">http://www.github.com/DATACENTER</a> – Nexus 9k / ACI org on GitHub</p>
+
+<p><a href="http://pcottle.github.io/learnGitBranching/">http://pcottle.github.io/learnGitBranching/</a> – Learn about GIT</p>
+
+<p> </p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">DevOps Deciple in an Enterprise World</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>DevOps Deciple in an Enterprise World</li>
+          <li><a href="mailto:colin@2cups.com">colin@2cups.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+          <li>
+            <a href="https://twitter.com/colinmcnamara">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">colinmcnamara</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">CCIE #18233, DevOps, OpenStack, Containers, SDN, People, Process, Technology
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

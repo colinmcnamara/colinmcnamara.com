@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Moving towards a Green Data Center &#8211; Truth behind the hype</title>
+  <meta name="description" content="Eplus, Cisco, Hewlett Packard and PG&amp;E held a luncheon this last Friday focused on Green Data Center. I’ll be the first to admit that at first I thought ...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.colinmcnamara.com/moving-towards-a-green-data-center-truth-behind-the-hype/">
+  <link rel="alternate" type="application/rss+xml" title="DevOps Deciple in an Enterprise World" href="http://www.colinmcnamara.com/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">DevOps Deciple in an Enterprise World</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About Colin McNamara</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Moving towards a Green Data Center &#8211; Truth behind the hype</h1>
+    <p class="post-meta">Feb 22, 2008 • colinmcnamara</p>
+  </header>
+
+  <article class="post-content">
+    <p>Eplus, Cisco, Hewlett Packard and PG&amp;E held a luncheon this last Friday focused on Green Data Center. I’ll be the first to admit that at first I thought “green” Data Center initiatives were just political and corporate marketing initiatives. I thought they saw Al Gore give some rocking presentation and decided it would be great to market their products as “green” while continuing to spew toxins and club baby seals in their manufacturing plants.</p>
+
+<p>I was wrong, the Green Data Center is not about saving baby seals, it is about saving cold hard cash. Saving the world is just a nice side benefit.</p>
+
+<p>That being said, saving cold hard cash is a very important discussion item in any IT Operations group as they are normally seen as a cost center. For them, a penny saved is literally a penny earned. Not only can you save money by not paying for power, but PG&amp;E will actually has a budget to pay you NOT to use their power. Most people here this and get a puzzled look on their face. “why would the power company, who makes money on power, not want me to buy it from them?” The answer is that Californians use more power then PG&amp;E can produce at peak times. When they have to buy it from another state it can cost them 10 times or more then they charge us. This is the reason why PG&amp;E will pay you to use less. Each penny they give to the consumer for saving a watt, saves them 4 pennies (80% return on investment).</p>
+
+<p><strong>Great, PG&amp;E saves money by giving it to me. How do I get this cash? Well there are a couple ways to get this.</strong></p>
+
+<ol>
+  <li>Incentives for new buying new energy efficient servers</li>
+  <li>Rebates for moving to virtualized servers</li>
+  <li>Rebates and incentives for moving to thin client desktop systems</li>
+  <li>Audit teams for cooling and power if your Data Center is 10,000 square feet or more</li>
+  <li>Incentives for airflow control systems</li>
+  <li>Incentives for high efficiency UPS and power distribution systems</li>
+  <li>Technical services for cooling system evaluation (PG&amp;E funded)</li>
+</ol>
+
+<p>That is a pretty comprehensive list of how to get money from the power company, but you can save even more money buy not using the power in the first place. Not unsurprisingly this starts with the server.</p>
+
+<p>First thing you can do, is virtualize, virtualize, and virtualize some more. For most people this means VMware. For others this may mean Xen, or Microsofts virtualization product. Whatever flavor you chose, the key message is to consolidate from many servers to few. A server sitting “idle” still pulls 50% of its max current. Now, howe many servers do you have that are just sitting there? My guess is a large amount. By virtualizing these servers, you allow them to be stacked onto high performance server that can be run at a higher utilization. This lowers the over all power utilization for your DataCenter. Another side benefit is that ever watt that you remove from a server, you get another watt removed from your cooling.</p>
+
+<p>These same virtualization techniques can also be applied to your network devices, which account for 6 to 12 percent of your datacenters power draw.</p>
+
+<p>Ask yourself a few questions</p>
+
+<ul>
+  <li>” Do I need 4 different firewall clusters?”. It is likely that these are leftovers from organic growth, and that you could consolidate them into virtual firewalls on a more efficient chassis (ASA comes to mind).</li>
+  <li>” Do I need to maintain physically separate infrastructure?”. There are technologies like MPLS, VFR-Lite, Virtual Switching and more that allow you to consolidate onto a shared network infrastructure, taking a service provider approach to providing transport in your network.</li>
+  <li>” Am I running old inefficient gear?”. Power supplies have increased in efficiency over the last few years. There may be a good return on investment for you to upgrade.</li>
+  <li>” Can I consolidate into larger chassis?”. Ask the question, which is more efficient – a closet full of 3560’s or a 4507? There is efficiency in scaling out.</li>
+</ul>
+
+<p>I hope that reading this has caused you to ask some questions, and maybe look at the larger impact of your network operations on both the ecosystem and your operational expenses. With these questions in hand, you might want to talk to PG&amp;E and your Cisco / HP parter about going “Green” in the data center.</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">DevOps Deciple in an Enterprise World</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>DevOps Deciple in an Enterprise World</li>
+          <li><a href="mailto:colin@2cups.com">colin@2cups.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+          <li>
+            <a href="https://twitter.com/colinmcnamara">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">colinmcnamara</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">CCIE #18233, DevOps, OpenStack, Containers, SDN, People, Process, Technology
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Arista Networks &#8211; Their approach to cloud networking</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.colinmcnamara.com/arista-networks-their-approach-to-cloud-networking/">
+  <link rel="alternate" type="application/rss+xml" title="DevOps Deciple in an Enterprise World" href="http://www.colinmcnamara.com/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">DevOps Deciple in an Enterprise World</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About Colin McNamara</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Arista Networks &#8211; Their approach to cloud networking</h1>
+    <p class="post-meta">Sep 1, 2009 • colinmcnamara</p>
+  </header>
+
+  <article class="post-content">
+    <!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:AllowPNG /> </o:OfficeDocumentSettings> </xml><![endif]-->
+
+<!--[if gte mso 9]><xml> <w:WordDocument> <w:Zoom>0</w:Zoom> <w:TrackMoves>false</w:TrackMoves> <w:TrackFormatting /> <w:PunctuationKerning /> <w:DrawingGridHorizontalSpacing>18 pt</w:DrawingGridHorizontalSpacing> <w:DrawingGridVerticalSpacing>18 pt</w:DrawingGridVerticalSpacing> <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery> <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery> <w:ValidateAgainstSchemas /> <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid> <w:IgnoreMixedContent>false</w:IgnoreMixedContent> <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText> <w:Compatibility> <w:BreakWrappedTables /> <w:DontGrowAutofit /> <w:DontAutofitConstrainedTables /> <w:DontVertAlignInTxbx /> </w:Compatibility> </w:WordDocument> </xml><![endif]-->
+
+<!--[if gte mso 9]><xml> <w:LatentStyles DefLockedState="false" LatentStyleCount="276"> </w:LatentStyles> </xml><![endif]-->
+
+<!--[if gte mso 10]><br />
+<mce:style><!   /* Style Definitions */ table.MsoNormalTable 	{mso-style-name:"Table Normal"; 	mso-tstyle-rowband-size:0; 	mso-tstyle-colband-size:0; 	mso-style-noshow:yes; 	mso-style-parent:""; 	mso-padding-alt:0in 5.4pt 0in 5.4pt; 	mso-para-margin:0in; 	mso-para-margin-bottom:.0001pt; 	mso-pagination:widow-orphan; 	font-size:12.0pt; 	font-family:"Times New Roman"; 	mso-ascii-font-family:Cambria; 	mso-ascii-theme-font:minor-latin; 	mso-fareast-font-family:"Times New Roman"; 	mso-fareast-theme-font:minor-fareast; 	mso-hansi-font-family:Cambria; 	mso-hansi-theme-font:minor-latin;} -->
+
+<!--[endif]-->
+
+<!--StartFragment-->
+
+<p class="MsoNormal">
+  <strong>Intellectual capital driving the cloud</strong>
+</p>
+
+<p class="MsoNormal">
+  <p class="MsoNormal">
+    It is wise to follow the movements of thought leaders in Silicon Valley. Why is that? Because when enough smart people land at the same company, it is only a matter of time something great happens. This “human network” of intellectual capital has been the seed of many successful tech companies, and will continue to be true in the future.
+  </p>
+  
+  <p class="MsoNormal">
+    <p class="MsoNormal">
+      One of these tech companies with a wealth of intellectual capital is Arista Networks. There are A LOT of ex Cisco folks walking the halls of Arista. Many of them come from the Granite Systems acquisition<span> </span>(Cisco’s 4500 platform). This platform, while designed with line card oversubscription to keep it between the 3560 and 6500 platforms in price and performance has an extremely elegant internal architecture.<span> </span>Case in point, the 4500 platform has had in service software upgrade (ISSU) for over two years, something that the 6500 still struggles with.
+    </p>
+    
+    <p class="MsoNormal">
+      [singlepic id=99 w=427 h=281 float=]
+    </p>
+    
+    <p class="MsoNormal">
+      <p class="MsoNormal">
+        Now that this team, and key leaders from Cisco and other tech companies are putting together a network platform, what can they do? And more importantly, what will they do?
+      </p>
+      
+      <p class="MsoNormal">
+        <p class="MsoNormal">
+          Before I dive into that answer, I think it is important to take a quick overview of the two major camps of network platform development, and what the advantages and drawbacks of each method is.
+        </p>
+        
+        <p class="MsoNormal">
+          <p class="MsoNormal">
+            <strong>Creating your own ASICS in house</strong>
+          </p>
+          
+          <p class="MsoNormal">
+            The first way is to create your own ASICS that handle switching and security functions. In this case, you are effectively a chipset manufacturer, who then bundles your own chipsets into routing, switching and security platforms. On one hand, developing your own ASICS can give you a competitive advantage by rolling in features that are not available to your competitors.
+          </p>
+          
+          <p class="MsoNormal">
+            <p class="MsoNormal">
+              On the downside however because of the high cost of developing these chipsets you are forced to design for a very long lifecycle (7+ years).<span> </span>Another downside is that if you have any problems with manufacturing, you cannot just call up another supplier and change your sourcing strategy because you are that supplier. In the case of any Fab issues you are forced to slip your product delivery dates.
+            </p>
+            
+            <p class="MsoNormal">
+              <p class="MsoNormal">
+                <strong>Utilizing market silicon</strong>
+              </p>
+              
+              <p class="MsoNormal">
+                <strong>[singlepic id=100 w=500 h=300 float=]<br /> </strong>
+              </p>
+              
+              <p class="MsoNormal">
+                The second way is to utilize routing, switching, and security ASICS that are commercially available through many manufacturers and wrap your own software and chassis integration around them. This is commonly referred to as “market silicon”.<span> </span>In this case, your focus is end to end integration of commodity ASICS and most importanly creating  software differentiation to add value to your product.
+              </p>
+              
+              <p class="MsoNormal">
+                <span> </span>
+              </p>
+              
+              <p class="MsoNormal">
+                The positives aspects of this model is that you are not locked into your own chipset design time lines. If your primary chipset supplier has a Fab issue, then you can easily change your supplier and hit your deployment time lines.
+              </p>
+              
+              <p class="MsoNormal">
+                <p class="MsoNormal">
+                  The downsides of this model is that every single networking manufacture in the world has access to the same chipsets. This forces a vendor to differentiate through better software, support, and integration of these “Market Silicon” ASICS into a superior platform.
+                </p>
+                
+                <p class="MsoNormal">
+                  <strong> </strong>
+                </p>
+                
+                <p class="MsoNormal">
+                  <strong>Who uses what?</strong>
+                </p>
+                
+                <p class="MsoNormal">
+                  <p class="MsoNormal">
+                    With all the talk of Market Silicon being evil, the reality is that the major networking manufacturers use a mix of home grown ASICS and market silicon to drive their products.<span> </span>I can’t say who uses what, but feel free to crack open your switch and take a look at the chipsets on the line cards. Don&#8217;t be surprised if you can find some market silicon sprinkled here and there. Now that doesn&#8217;t mean that these platforms are bad, it just means that for certain functions it is cheaper to source ASICS externally then to create them in house.
+                  </p>
+                  
+                  <p class="MsoNormal">
+                    <p class="MsoNormal">
+                      <strong>How does Arista approach this problem?</strong>
+                    </p>
+                    
+                    <p class="MsoNormal">
+                      Aristas focus is to create an extensible network operating system that can manage and enable multiple switching ASICS and switching platforms (VMware Virtual Network Distributed Switch &#8211; vNDS).
+                    </p>
+                    
+                    <p class="MsoNormal">
+                      <strong> </strong>
+                    </p>
+                    
+                    <p class="MsoNormal">
+                      <strong>Extensible Operating System (EOS/vEOS)</strong>
+                    </p>
+                    
+                    <p class="MsoNormal">
+                      <strong>[singlepic id=98 w=500 h=240 float=]<br /> </strong>
+                    </p>
+                    
+                    <p class="MsoNormal">
+                      Arista created a new operating plaform, based on Linux that manages both the physical and virtual implementations of switching devices (ASIC and Virtual Switches). It is called the Extensible Operating System. This operating system has hooks into all the ASICS and vSwitches that it supports. Most importantly it provides one single operating system for all supported platforms both physical and virtual.
+                    </p>
+                    
+                    <p class="MsoNormal">
+                      <p class="MsoNormal">
+                        <strong>sysDB</strong>
+                      </p>
+                      
+                      <p class="MsoNormal">
+                        Core to the functionality of EOS is the sysDB.<span> </span>What is the sysDB? It is a custom real time database written specifically for the interaction of individual system processes. These include routing, switching, security, management processes. By centralizing all of this information in a central location the time to react to events is minimized . This is especially true when compared to classic networking implementations where independent processes keep independent state.
+                      </p>
+                      
+                      <p class="MsoNormal">
+                        [singlepic id=97 w=500 h=500 float=]
+                      </p>
+                      
+                      <p class="MsoNormal">
+                        <strong>vEOS</strong>
+                      </p>
+                      
+                      <p class="MsoNormal">
+                        Virtual Extensible Operating system is just that &#8211; A virtualized instance of the items mentioned above. This can be run inside a vmware virtual machine. It is the same operating system, database, and daemons that run on Arista&#8217;s physical hardware. The only difference that it happens to run inside of your virtual infrastructure.
+                      </p>
+                      
+                      <p class="MsoNormal">
+                        You may ask the question, why would you want to take a network operating system / hardware combination and split it apart?
+                      </p>
+                      
+                      <p class="MsoNormal">
+                        <strong></strong><strong>vEOS and VMware Virtual Distributed Network Switch</strong>
+                      </p>
+                      
+                      <p class="MsoNormal">
+                        EOS and vEOS have implemented a hook into VMware&#8217;s vNetwork Distributed Switch (vNDS) API. In effect, you can think of the vNDS as just another ASIC to the operating system. Instead of connected through a device driver, EOS and vEOS connect in through an XML API. This accomplished the function of both retrieving status and performance information that the vNDS provides, and creating policies inside EOS and publishing them into your VMware switching infrastructure.
+                      </p>
+                      
+                      <p class="MsoNormal">
+                        <p class="MsoNormal">
+                          <strong>[singlepic id=102 w=600 h=227 float=]</strong>
+                        </p>
+                        
+                        <p class="MsoNormal">
+                          If you have an Arista switch directly northbound of your ESX servers, you get this monitoring and configuration feature for free. If you don&#8217;t have Arista switches, (say you have Cisco, HP, Juniper or Foundary) you can use vEOS (the virtual instance) and pay a fee to get a cli interface into the VDS.
+                        </p>
+                        
+                        <p class="MsoNormal">
+                          <strong>vEOS vs Nexus 1000V</strong>
+                        </p>
+                        
+                        <p class="MsoNormal">
+                          This is a likely to be a highly contested item, complete with competing bumper stickers. In my opinion it isn&#8217;t that big of a deal. The reason being is that the 1000v and Arista&#8217;s vEOS implementation are completely different. Cisco&#8217;s 1000V is a dedicated piece of code running on your ESX servers that handles switching differently then VMware&#8217;s vNDS. Arista&#8217;s implementation of EOS and vEOS is more of a management interface to VMwares vNDS. vEOS does not replace the switch inside VMware, it configures and monitors it through the vNetwork API.
+                        </p>
+                        
+                        <p class="MsoNormal">
+                          When comparing the two products head to head, the discussion is really a VMware vNDS vs Nexus 1000v discussion. If you have already decided to move to the 1000V because of the feature differential between the native vNDS then nothing really changes.
+                        </p>
+                        
+                        <p class="MsoNormal">
+                          This doesn&#8217;t mean that vEOS does not add value. In smaller environments where the 1000V is not an option, or in an intercloud situation where state needs to be passed between disparate network instances vEOS&#8217;s vNDS implementation can be very valuable. If the vNDS features are all you need, but you would prefer a CLI for your VMware switching and cannot justify the expense for the 1000V licenses, then Arista might be right for you.
+                        </p>
+                        
+                        <p class="MsoNormal">
+                          <strong>Want to learn more?</strong>
+                        </p>
+                        
+                        <p class="MsoNormal">
+                          <a href="http://www.aristanetworks.com/en/vEOS">Arista Networks &#8211; Extensible Operating System</a>
+                        </p>
+                        
+                        <p class="MsoNormal">
+                          <a href="http://www.aristanetworks.com/andy/blog-entry/20090326200852"></a><a href="http://www.aristanetworks.com/andy/blog-entry/20090326200852">Andy Bechtolsheim</a><a href="http://www.aristanetworks.com/andy/blog-entry/20090326200852">&#8216;s opinion on Market ASICs</a>
+                        </p>
+                        
+                        <p class="MsoNormal">
+                          <a href="http://www.vmware.com/products/vnetwork-distributed-switch/">VMware Virtual Network Distributed Switch</a>
+                        </p>
+                        
+                        <p class="MsoNormal">
+                          <a href="http://www.cisco.com/en/US/products/ps9902/">Cisco Systems &#8211; Nexus 1000V</a>
+                        </p>
+                        
+                        <p class="MsoNormal">
+                          <p class="MsoNormal">
+                            <p>
+                              <!--EndFragment-->
+                            </p>
+</p></p></p></p></p></p></p></p></p></p></p></p></p></p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">DevOps Deciple in an Enterprise World</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>DevOps Deciple in an Enterprise World</li>
+          <li><a href="mailto:colin@2cups.com">colin@2cups.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+          <li>
+            <a href="https://twitter.com/colinmcnamara">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">colinmcnamara</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">CCIE #18233, DevOps, OpenStack, Containers, SDN, People, Process, Technology
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

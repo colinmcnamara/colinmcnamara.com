@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>VMware&#8217;s Acquisition of Nicira &#8211; VMware confirming the hypervisor is dead</title>
+  <meta name="description" content="The hypervisor is dead, for VMware to stay relevant it has to continue innovating higher up the stack. The acquisition of Nicira will allow VMware to have a ...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.colinmcnamara.com/vmwares-acquisition-of-nicira-vmware-confirming-the-hypervisor-is-dead/">
+  <link rel="alternate" type="application/rss+xml" title="DevOps Deciple in an Enterprise World" href="http://www.colinmcnamara.com/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">DevOps Deciple in an Enterprise World</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About Colin McNamara</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">VMware&#8217;s Acquisition of Nicira &#8211; VMware confirming the hypervisor is dead</h1>
+    <p class="post-meta">Jul 23, 2012 • colinmcnamara</p>
+  </header>
+
+  <article class="post-content">
+    <p>VMware recently announced its intent to acquire Nicira for 1.2 billion dollars. This acquisition is of interest because it clearly signals <strong>VMware’s abandoning of the Hypervisor as a differentiating platform.</strong></p>
+
+<p><img title="VMware-tombstone.jpg" src="http://www.colinmcnamara.com/wp-content/uploads/2012/07/VMware-tombstone1.jpg" alt="VMware tombstone" width="500" height="300" border="0" /></p>
+
+<p>Yes, the hypervisor is commodity now. Whether it is ESXi, Hyper-V, Xen or KVM. You can take multiple operating systems and virtualize them on one CPU, share memory as well as do a live migration between hosts on all platforms.</p>
+
+<p>Not only have commonly used features listed above become available across many platforms, but in some cases open source technologies such as KVM be more extensible then VMware’s product.</p>
+
+<p><strong>What is VMware thinking?</strong></p>
+
+<p>For the past couple years, VMware has been investing in technologies outside of the hypervisor. Some of this include Cloud Automation, Virtual Desktop, Application security and control, and Operations and Management.</p>
+
+<p>These investments are smart, because it transforms the conversation from a discussion about hypervisors (which is a hard one to win on its own merits) to a discussion about the value add of all of the products that VMware offers.</p>
+
+<p>Bundling of products and services is business 101 when your product becomes commoditized. Cisco does it by integrating all aspects of their product lines, EMC does it by offering a range of integrated Tier 1-4 storage and backup solutions, and VMware does it by offering significantly more then a hypervisor.</p>
+
+<p><strong>I believe that this is the first step in VMware integrating their services into NON-ESXi hypervisors. Here is why – </strong></p>
+
+<p>A few key concepts have emerged to be true in the virtualization market</p>
+
+<ol>
+  <li>
+    <p>Integrating multiple hypervisor support into their management platform (Systems Center Operations Manager – SCOM) is something customers want.</p>
+  </li>
+  <li>
+    <p>Customers are willing to utilize “Free” hypervisors such as Hyper-V or KVM / Xen for at minimum second or third their applications. And in some cases such as cloud service providers they are using these (specifically KVM and Xen) for their tier one virtualization.</p>
+  </li>
+  <li>
+    <p>The Cloud Service provider market is booming. It is not possible to compete on cost in that market while running on anything but Open Source hypervisors.</p>
+  </li>
+</ol>
+
+<p>What the acquisition of Nicira gives Nicira is an integration point between all of the rich applications that have been developed since ESXi and Hyper-V, Xen and KVM (OpenStack).</p>
+
+<p>Nicira already has plugins and to each of those platforms, providing not only a richly developed code base, but a conduit for linking disparate clouds together.</p>
+
+<p><strong>Does this signal an end to the honeymoon between VMware and Cisco?</strong></p>
+
+<p>The partnership between VMware and Cisco has been one based on mutual benefit, not mutual exclusivity.</p>
+
+<p>The fact of the matter is that Cisco has been working with multiple Hypervisor’s for a long time now. ESXi, Hyper-V, Xen and KVM are all supported platforms on their Unified Computing Platform (UCS). Just the same as VMware was working with HP and Dell long before Cisco started making servers.</p>
+
+<p>If you look close, you will notice that Cisco has been a major player in the OpenStack project. So much that there is <a href="http://wiki.openstack.org/cisco-quantum">**EXTREMELY RICH integration with OpenStack’s Quantum Networking service **</a>in both UCS and the Nexus switching platform.</p>
+
+<p>What this shows is that Cisco is presenting itself as a network and systems platform for Virtualization software manufacturers to leverage. Nicira has networking functions, but then so does the distributed vSwitch. At the end of the day, logical switching still needs physical devices. This is still a place where Cisco can and will play – As an arms dealer to software manufacturers</p>
+
+<p><strong>Summing it all up</strong></p>
+
+<p>The hypervisor is dead, for VMware to stay relevant it has to continue innovating higher up the stack. The acquisition of Nicira will allow VMware to have a play in the service provider market and do just that.</p>
+
+<p>It also provides an avenue for VMware to port it’s higher level applications to run on multiple hypervisors. This has the potential to slow flow of customers to free platforms like Hyper-V and OpenStack.</p>
+
+<p>While this isn’t the best thing for the Cisco relationship, the reality of the matter is that VMware and Cisco have an “Open” relationship where both companies work with many others. I don’t see this relationship changing in the long run.</p>
+
+<p> </p>
+
+<p> </p>
+
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">DevOps Deciple in an Enterprise World</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>DevOps Deciple in an Enterprise World</li>
+          <li><a href="mailto:colin@2cups.com">colin@2cups.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+          <li>
+            <a href="https://twitter.com/colinmcnamara">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">colinmcnamara</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">CCIE #18233, DevOps, OpenStack, Containers, SDN, People, Process, Technology
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

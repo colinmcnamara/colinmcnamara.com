@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Confusion about Cisco UCS pricing &#8211; Setting the Record Straight</title>
+  <meta name="description" content="I read an interesting article in the Channel Register written by Timothy Pricket Morgan today. In his article – Cisco California pricing revealed, $3,000 for...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.colinmcnamara.com/confusion-about-cisco-ucs-pricing/">
+  <link rel="alternate" type="application/rss+xml" title="DevOps Deciple in an Enterprise World" href="http://www.colinmcnamara.com/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">DevOps Deciple in an Enterprise World</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About Colin McNamara</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Confusion about Cisco UCS pricing &#8211; Setting the Record Straight</h1>
+    <p class="post-meta">Jun 13, 2009 • colinmcnamara</p>
+  </header>
+
+  <article class="post-content">
+    <p>I read an interesting article in the Channel Register written by Timothy Pricket Morgan today. In his article – <a href="http://www.channelregister.co.uk/2009/06/12/cisco_ucs_pricing_revealed/" target="_blank"><em>Cisco California pricing revealed, $3,000 for a blade with no innards</em></a> he attempts to position UCS as a horribly overpriced system where Cisco is egregiously marking up components. A pretty strong statement from his article is listed below –</p>
+
+<p style="padding-left: 30px;">
+  &#8220;it looks like one of the key features not on the list of components for the California boxes is going to be a red discount pen&#8221;
+</p>
+
+<p>Timothy references sources who have obtained a price list and shared it with <em>“El Reg”</em> . I wish Timothy would have contacted an actual Cisco Unified Computing System Advanced Technology Partner, because any partner that is involved in the launch could have explained to him the concepts of List price (List), Manufacturers Suggested Retail Price (MSRP), and Purchase or Buy price.</p>
+
+<p><img style="float: right;" title="Saving Money with Cisco Unified Computing System" src="http://www.colinmcnamara.com/wp-content/gallery/cisco-unified-computing-system/istock_000007893322small.jpg" alt="Saving Money with Cisco Unified Computing System" width="250" height="279" /></p>
+
+<p>In this article I want to dispel the myths of server and network manufacturer pricing, demonstrate the true cost of building a data center with blade systems, and at the end provide a cost comparison between legacy server vendors options and Cisco’s Unified Compute System.</p>
+
+<p>First, lets go over some the basic concepts of vendor pricing. At the end of this you should understand the difference between list price, manufacturers suggested retail price, and purchase price.</p>
+
+<p><strong>List Price</strong></p>
+
+<p>List price is a high level number that Cisco publishes weekly in its global price list. The purpose of this list price is to provide a uniform price list across all product sets that Cisco offers. The most important thing about list price is <strong>NOBODY EVER PAYS LIST PRICE</strong>. Let me repeat that again **NOBODY EVER PAYS LIST PRICE. **Are we clear? This is similar to list price on a car on the car lot. All list price provides is a starting point where a Cisco partner and a customer can negotiate a common discount and end up with something close to (generally at or below depending on technology type and yearly spend) MSRP.</p>
+
+<p><strong>Manufacturers Suggested Retail Price (MSRP)</strong></p>
+
+<p>This concept is something that anyone who has purchased a car before is familiar with. The number that is on the window of the car when you look on the lot is list price. The first number the dealer brings up lower then sticker is MSRP. Depending on the popular of the product, the competition in that particular space, and the negotiating power of the customer you will either pay that price, or some percentage below. For example if you are buying one new car you may have the negotiating power to get the price to drop 5% off of list. If you are buying 200 new cars (say a fleet) you have significantly higher negotiating power, and you may be able to drop the price by 15% of of list price.</p>
+
+<p>In Networking Sales MSRP is significantly less then list price. A good exercise to see what this number is, is to find a device, say a WS-C3560E-12SD-E (3560 with 12 Gig SFP ports and 2 10 Gig ports) in the Global Price List. You have access to this at any partner level at <a href="http://www.cisco.com/dprg" target="_blank">www.cisco.com/dprg</a> . (my point here is that this is no big secret). As of Friday June 12 2009 the LIST price for this product is $19,995.</p>
+
+<p>Now take that same part number – WS-C3560E-12SD-E and pop it into your google search window. Within the top four links I found this product for $12,434.15 . This price is for  pure fulfillment, with no value added consulting or design work from you local Cisco partner.</p>
+
+<p>If you do the quick math, this price difference is equal to 38% off of list price. Come to your own conclusions, but it would be safe to say that this could be considered MSRP for Cisco products.</p>
+
+<p><strong>Purchase / Buy Price</strong></p>
+
+<p>Buy price is just that, the price at which the customer purchases (buys) the product. This is can be at MSRP, or if the customer is buying significant amounts of hardware at a time, or if there is a “special” (programs and incentives) going on the number could be slightly lower then MSRP.</p>
+
+<p><strong>Percent off of list differences between legacy server vendors and networking vendors</strong></p>
+
+<p>This is where the biggest confusion is coming from. Legacy server manufacturers  have set their list prices much closer to MSRP then networking vendors (remember, MSRP is the price where most customers purchase at).</p>
+
+<p>Why is this? In the networking space, vendors have historically created their own processors, ASICS and boards. This means that the sales discussions are feature to feature. It also meant that you had to have a conversation with the networking vendor or networking partner to properly size your network devices and get a quote – which is around MSRP, not List price.</p>
+
+<p>In the legacy server space, especially the majority of the x86 server space, the market has been essentially commoditized. E.G. – You can buy an intel based server with X amount of memory and hard drives that will perform roughly equally from any of the main manufacturers. That made it much easier for a sever admin to just pull a price off of the web and compare. So what the server vendors ended up doing is setting their list price  only slightly above MSRP.</p>
+
+<p>What this translates to is the list price, between legacy compute vendors and Cisco will be drastically unequal. What is equal is MSRP, or the generally accepted purchase price by common customers.</p>
+
+<p><strong>Why did Cisco set the list price of UCS higher then the legacy server manufacturers?</strong></p>
+
+<p><strong><img style="float: left;" title="Cisco's Pricing Strategies" src="http://www.colinmcnamara.com/wp-content/gallery/cisco-unified-computing-system/istock_why_salesman_000003413016xsmall.jpg" alt="Cisco's Pricing Strategies" width="250" height="242" /></strong>For the vast majority of its sales, Cisco relies on what is called the channel model. This means that Cisco partners with local Value Added Resellers (VAR’s) who sell Cisco’s products and then provide consultative services to design and implement them in customer networks. Most customers who purchase any regular amount of Cisco product either have a general expectation that they will buy Cisco product at a certain percentage discount off of list and sometimes the partner and customer have entered into purchasing contracts which require that all Cisco product is provided at a specific discount off of list price.</p>
+
+<p>If Cisco decided to set the List price at a small percentage lift over MSRP, this would cause a problem for the entire channel. This would be especially hard for any customer who had a contract to buy product at a specific discount. What would happen is contracts would have to be renegotiated, which generally takes months and is about as fun as pulling teeth.</p>
+
+<p>The second reason for setting list price the for compute the same as list for network is quoting. Right now, if you buy hundreds of different Cisco devices through a reseller it is very likely that the discount is going to be the same across all products. This makes the mechanics of sales much simpler, because you don’t have a lot of math in the quote (this can cause errors). On the customer side, having one set discount makes it much easier to compare quotes and to ensure that they are getting the best deal possible. In short, sticking with Cisco’s current list pricing structure benefits both the customer and the partner.</p>
+
+<p>Now that we have set the record straight on list price, MSRP, and Buy price, lets take a deeper dive into what components make up a blade system powered data center. And then we will compare the price structures of both.</p>
+
+<p><strong>Components of all Blade Systems</strong></p>
+
+<p><strong><img style="float: left;" title="Cisco Unified Computing System" src="http://www.colinmcnamara.com/wp-content/gallery/cisco-unified-computing-system/cisco-ucs-ppt-redundant.jpg" alt="Cisco Unified Computing System" width="278" height="210" /></strong></p>
+
+<p>Blade Server – The compute blade where commodity silicon elements such as the CPU and RAM are housed. As of writing this article, the latest high performance blades from all major server manufactures support two xeon 5500 processors (Nehalem) and DDR3 memory.</p>
+
+<p>Mezzanine cards – These cards take the place of PCI-e cards in a rack form factor server. In a blade system these provide data network and storage network connectivity. They attach to the blade itself via proprietary connectors that implement either PCI-e 8 or 16 lane connectivity at the time of writing. In some cases other functions such as IO accelerators can also be attached in the mezzanine card form factor.</p>
+
+<p>Blade Enclosure – This is functionally a tin can where eight to sixteen blades are placed. It also is used to provide a centralized power distribution fabric, as wells as slots for interconnections of data and storage network devices.</p>
+
+<p>Data Network Modules – These are effectively ethernet switches that have been miniaturized to fit into the tight confines of a blade enclosure. Classically they have provided 1 gig connectivity to the servers, and 10 gig to the distribution layer, however with Nehalem processors and VMware there is a move towards presenting 10 gig connections to the server, and multiple 10 Gig connections into the distribution layer.</p>
+
+<p>Storage Network Modules – The local disk in a blade server is classically anemic. To provide higher IOPS (input outputs per second) to disk, Fibre Channel connectivity is extended by taking SAN fabric switches and miniaturizing them to fit into the blade enclosure.</p>
+
+<p>Data Network Distribution – If you have multiple blade enclosures there is a need to connect them together at a reasonably high bandwidth. To serve that need a variety of 10 Gig distribution switches are provided from all server manufactures at varying cost and performance levels.</p>
+
+<p>Storage Network Distribution – Along the same lines of the data network distribution, SAN fabric switches have to aggregate up to a SAN distribution layer, or if the installation is reasonably large a “director” class SAN switch. This allows all the blade enclosures to see the same storage network, as well as providing for deterministic storage network performance as you scale out.</p>
+
+<p>Management Infrastructure – All manufactures have a need to manage and monitor all of the devices that comprise their blade system. Many manufactures have multiple management modules per blade enclosure.</p>
+
+<p><strong>Comparison of Costs – Cisco vs Legacy Server Manufacturers</strong></p>
+
+<p><strong><img style="float: left;" title="Calculator" src="http://www.colinmcnamara.com/wp-content/gallery/cisco-unified-computing-system/istock_calculator_000007118327xsmall.jpg" alt="Calculator" width="250" height="165" /></strong></p>
+
+<p>The funny thing, is that many people have assumed that Cisco’s Unified Computing System will be priced higher then legacy server manufactures products. In my mind this is because they associate higher quality with higher price (basically the Mercedes vs Kia discussion). Here is something that will shock you –** it costs less to buy an entire blade system through Cisco then to buy from the legacy server manufacturers. **</p>
+
+<p>When people hear this, they are puzzled. How can two server manufacturers, who buy their CPU’s from the same company (Intel) and their memory from the same fabs end up with different prices? The answer is elegance in engineering. Lets go through each of the elements of a blade system infrastructure and find out where the costs are. More importantly lets look at where Cisco has innovated to provide higher performance at a lower cost.</p>
+
+<div>
+  <p>
+    Blade Server &#8211; Legacy server manufactures and Cisco have almost identical MSRP for their compute blades. All server manufacturers buy the components of <em>currently shipping blade servers </em>from the same manufactures. I italicized currently shipping blade servers because I have used Cisco&#8217;s B-200 series blade for this comparison. This fall Cisco will be shipping the B-250 blade which further increases Cisco&#8217;s price advantage.
+  </p>
+  
+  <p>
+    Mezzanine cards &#8211; The legacy server manufacturers require two separate mezzanine cards to provide both storage and data network access. This is one area where Cisco is able to provide a superior product at a lower cost. Cisco has miniaturized the Converged Networking Adapters (CNA&#8217;s) that have been available for a year now, and made them available for their blade system. 1/2 the adapters results in less cost.
+  </p>
+  
+  <p>
+    Blade Enclosure &#8211; If you take the cost per blade (some manufacturers have 16 blade enclosures and some have 8 blade enclosures) this cost is pretty much equal between manufacturers.
+  </p>
+  
+  <p>
+    Data Network Modules &#8211; Legacy server manufactures have put switches, or virtualized IO cards (essentially switches with a different GUI) into their blade enclosures. Cisco has taken a new route and miniaturized a 10 Gig version of their Fabric Extender Modules (FEX). This results in the ability to provide the higher bandwidths required by new virtualization platforms at a much lower cost then the legacy manufacturers.
+  </p>
+  
+  <p>
+    Storage Network Modules &#8211; In legacy environments, a pair of separate SAN switches is required per blade enclosure. Cisco is leveraging it&#8217;s Unified Fabric technology to pass this SAN traffic over the same Fabric Extenders used for transmitting data. Cisco again is lowering costs by removing the requirement for SAN devices in each blade enclosure.
+  </p>
+  
+  <p>
+    Data Network Distribution &#8211; No matter what manufacturer you go with, you have to aggregate up all the blade enclosures into a high bandwidth, low latency network. Cisco has introduced the concept of a Fabric Interconnect. This is where all of the 10 Gig Fabric Extenders aggregate into. Again, this lowers the cost of building your blade system infrastructure.
+  </p>
+  
+  <p>
+    Storage Network Distribution &#8211; Right now this burden is shared between all server manufacturers. If Fibre Channel networking is required on any scale, a storage distribution layer is required. Cisco is however reducing the challenges of scaling this system by implementing Network Port Virtualization at the fabric interconnects.
+  </p>
+  
+  <p>
+    Management Infrastructure &#8211; Cisco has taken the independent management blade commonly found in legacy server manufacturers blade enclosures and centralized that functionality in the Fabric Interconnects. Again, we see the common theme of Cisco doing more with less. And when you have to purchase less components, you spends less money.
+  </p>
+</div>
+
+<p><strong>Dollars and Cents – How much is the cost difference</strong></p>
+
+<p>I worked up two quotes recently. These quotes included all elements required to build an end to end blade system using both legacy server manufactures devices, and using Cisco’s Unified Computing System. I have broken out two scenarios.</p>
+
+<hr />
+
+<p><strong>8 blade servers – Cisco wins with a savings of 11%</strong></p>
+
+<p>In this scenario the cost of servers and enclosures were fairly equal. The cost savings started racking up as storage and data networking devices were included, as well as base management software was taken into consideration.</p>
+
+<p><strong>320 blade servers – Cisco wins with a savings of 31%</strong></p>
+
+<p>With 32o blade servers the same cost savings seen in the 8 server scenario were amplified. Economies of scale translated into significantly less devices being required to support the individual compute blades. This resulted in 31% savings compared to the legacy server manufacturers.</p>
+
+<p><strong>Summing it up</strong></p>
+
+<p>Cisco has entered into a highly competitive server market by taking an elegant approach to its blade systems. This approach lowers the purchase price of the UCS through reducing the amount of components compared to legacy server manufacturers. I know that there is a lot of misinformation flying around, and I hope this helps to set the record straight on the pricing of Cisco’s Unified Computing System.</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">DevOps Deciple in an Enterprise World</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>DevOps Deciple in an Enterprise World</li>
+          <li><a href="mailto:colin@2cups.com">colin@2cups.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+          <li>
+            <a href="https://twitter.com/colinmcnamara">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">colinmcnamara</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">CCIE #18233, DevOps, OpenStack, Containers, SDN, People, Process, Technology
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
